@@ -47,23 +47,23 @@ class Subscribe extends Component {
             </div>
           </div>
           <div className="container">
-            <SeoTitle Title="Over 25+ completed work & Still counting." />
+            <SeoTitle Title="Over 30+ completed work & Still counting." />
             <div className="seo_fact_info">
               <div className="seo_fact_item">
                 <div className="text">
-                  <div className="counter one">8</div>
+                  <div className="counter one">26</div>
                   <p>Satisfied clients</p>
                 </div>
               </div>
               <div className="seo_fact_item">
                 <div className="text">
-                  <div className="counter two">12</div>
+                  <div className="counter two">37</div>
                   <p>Successful Projects</p>
                 </div>
               </div>
               <div className="seo_fact_item">
                 <div className="text">
-                  <div className="counter three">3</div>
+                  <div className="counter three">6</div>
                   <p>Our reach in countries</p>
                 </div>
               </div>
