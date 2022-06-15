@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { NavLink } from "react-router-dom";
+
 import SeoTitle from "../components/Title/SeoTitle";
 import Testimonial from "../components/Testimonial/Testimonial";
 
@@ -123,9 +125,14 @@ class Subscribe extends Component {
                 Ready to get started?
                 <br /> You are just one step away, let’s build it together.
               </h2>
-              <a href="/Contact" className="about_btn" style={{ width: 200 }}>
+              <NavLink
+                title="Portfolio"
+                className="about_btn"
+                to="/Contact"
+                style={{ width: 200 }}
+              >
                 Get a free Estimate
-              </a>
+              </NavLink>
             </div>
           </div>
         </section>
