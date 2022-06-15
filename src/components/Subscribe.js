@@ -49,25 +49,25 @@ class Subscribe extends Component {
             <div className="seo_fact_info">
               <div className="seo_fact_item">
                 <div className="text">
-                  <div className="counter one">693</div>
+                  <div className="counter one">8</div>
                   <p>Satisfied clients</p>
                 </div>
               </div>
               <div className="seo_fact_item">
                 <div className="text">
-                  <div className="counter two">276</div>
+                  <div className="counter two">12</div>
                   <p>Successful Projects</p>
                 </div>
               </div>
               <div className="seo_fact_item">
                 <div className="text">
-                  <div className="counter three">102</div>
+                  <div className="counter three">3</div>
                   <p>Our reach in countries</p>
                 </div>
               </div>
               <div className="seo_fact_item last">
                 <div className="text">
-                  <div className="counter four">93</div>
+                  <div className="counter four">750+</div>
                   <p>Working hours</p>
                 </div>
               </div>
