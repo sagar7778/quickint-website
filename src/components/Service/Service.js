@@ -17,63 +17,140 @@ const Service = () => {
                 <div className="seo_service_item">
                   <img src={require("../../img/seo/icon1.png")} alt="" />
                   <a href=".#">
-                    <h4>Digital Analytics</h4>
+                    <h4>Web and mobile app development</h4>
                   </a>
                   <p>
-                    Twit cras excuse my French matie boy grub it's all gone to
-                    pot off his nut butty horse play blow off pardon you hanky
-                    panky.!
+                    Digitize your business with our custom, user-friendly and
+                    state-of-the-art web or mobile software. In which we can
+                    provide you with operational efficiency by utilizing the
+                    latest technologies that give a boost to your business.
                   </p>
-                  <a href=".#">
+                  {/* <a href=".#">
                     <i className="arrow_right"></i>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </Fade>
+
             <Fade bottom duration={700}>
               <div className="col-lg-4 col-md-6">
                 <div className="seo_service_item">
                   <img src={require("../../img/seo/icon2.png")} alt="" />
                   <a href=".#">
-                    <h4>Digital Marketing</h4>
+                    <h4>DevOps automation</h4>
                   </a>
                   <p>
-                    Twit cras excuse my French matie boy grub it's all gone to
-                    pot off his nut butty horse play blow off pardon you hanky
-                    panky.!
+                    Let’s combine your business with our software and shorten
+                    the software development life cycle (SDLC). Which ultimately
+                    helps you to shift your typical traditional business methods
+                    into the new digital generation ones.
                   </p>
-                  <a href=".#">
+                  {/* <a href=".#">
                     <i className="arrow_right"></i>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </Fade>
+
             <Fade bottom duration={1000}>
               <div className="col-lg-4 col-md-6">
                 <div className="seo_service_item">
                   <img src={require("../../img/seo/icon5.png")} alt="" />
                   <a href=".#">
-                    <h4>Email Marketing</h4>
+                    <h4>SEO</h4>
                   </a>
                   <p>
-                    Twit cras excuse my French matie boy grub it's all gone to
-                    pot off his nut butty horse play blow off pardon you hanky
-                    panky.!
+                    We can provide you with SEO support which can highlight and
+                    differentiate your business in this competitive market. As a
+                    result, you can achieve new milestones in sales.
                   </p>
-                  <a href=".#">
+                  {/* <a href=".#">
                     <i className="arrow_right"></i>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </Fade>
-            <div className="col-lg-12 text-center mt_40">
-              <a href=".#" className="seo_btn seo_btn_one btn_hover">
-                All Features
-              </a>
-            </div>
+
+            <Fade bottom duration={1000}>
+              <div className="col-lg-4 col-md-6">
+                <div className="seo_service_item">
+                  <img src={require("../../img/seo/icon5.png")} alt="" />
+                  <a href=".#">
+                    <h4>Digital Innovation</h4>
+                  </a>
+                  <p>
+                    Innovate your conventional business procedures with us on
+                    our digital innovation platform, where we can provide you
+                    with research-based web & app platforms and IoT which help
+                    you to boost your growth.
+                  </p>
+                  {/* <a href=".#">
+                    <i className="arrow_right"></i>
+                  </a> */}
+                </div>
+              </div>
+            </Fade>
+
+            <Fade bottom duration={500}>
+              <div className="col-lg-4 col-md-6">
+                <div className="seo_service_item">
+                  <img src={require("../../img/seo/icon1.png")} alt="" />
+                  <a href=".#">
+                    <h4>Manual testing & quality assurance (QA)</h4>
+                  </a>
+                  <p>
+                    Let our quality analysts check your existing or newly
+                    developed digital service, to ensure you services with least
+                    bugs and high quality codes.
+                  </p>
+                  {/* <a href=".#">
+                    <i className="arrow_right"></i>
+                  </a> */}
+                </div>
+              </div>
+            </Fade>
+
+            <Fade bottom duration={500}>
+              <div className="col-lg-4 col-md-6">
+                <div className="seo_service_item">
+                  <img src={require("../../img/seo/icon1.png")} alt="" />
+                  <a href=".#">
+                    <h4>Software consultation</h4>
+                  </a>
+                  <p>
+                    Our team will guide you to solve your problems and provide
+                    you with a digital platform to achieve your digital shift.
+                    Our guidance will be honest, reliable and trustworthy.
+                  </p>
+                  {/* <a href=".#">
+                    <i className="arrow_right"></i>
+                  </a> */}
+                </div>
+              </div>
+            </Fade>
+
+            <Fade bottom duration={700}>
+              <div className="col-lg-4 col-md-6">
+                <div className="seo_service_item">
+                  <img src={require("../../img/seo/icon2.png")} alt="" />
+                  <a href=".#">
+                    <h4>Digital marketing & graphic designing</h4>
+                  </a>
+                  <p>
+                    We not only provide you with development services but we
+                    also help you with digital marketing, UX/UI designing,
+                    content development, logo designing and other services.
+                  </p>
+                  {/* <a href=".#">
+                    <i className="arrow_right"></i>
+                  </a> */}
+                </div>
+              </div>
+            </Fade>
           </div>
         </div>
       </section>
+
       <section className="seo_features_one sec_pad">
         <div className="container">
           <div className="row flex-row-reverse">
@@ -92,8 +169,8 @@ const Service = () => {
                 <div className="seo_features_content">
                   <h2>Our Core Values</h2>
                   <p>
-                    Faff about only a quid blower I don't want no agro bleeding
-                    chimney pot burke tosser cras nice one boot fanny.!
+                    We follows some key principals to which we tries to adhere
+                    strictly with and provide it to our each clients.
                   </p>
                   <div className="media seo_features_item">
                     <div className="media-body">
@@ -138,6 +215,7 @@ const Service = () => {
           </div>
         </div>
       </section>
+
       <section className="seo_features_one sec_pad">
         <div className="container">
           <div className="row">
@@ -158,31 +236,41 @@ const Service = () => {
                   <h2 className="wow fadeInUp">
                     Our merits that can make your mind clear
                   </h2>
-                  <p className="wow fadeInUp">
-                    1) 4+ YEARS OF INDUSTRY EXPERIENCE With the experience of
-                    over 4 years as an entity,we serve several clients across
-                    various sectors.so, we almost touched each sector.in
-                    addition,our clients were from all continents of globe.We
-                    believe in learning and constantly evolving ourselves with a
-                    positive attitude that can lead us to become a mature and
-                    trustful organization.
-                  </p>
-                  <p className="wow fadeInUp">
-                    2) FULL-STACK TEAMS We have teams of experienced and
-                    permanent full stack developers who are keenly interested in
-                    coding to provide high-quality & well written codes,and have
-                    the least bugs possible.This provided excellent and
-                    satisfactory results to our previous clients and the count
-                    of satisfaction still goes on.
-                  </p>
-                  <p className="wow fadeInUp">
-                    3) FREE BUSINESS CONSULTATION We also provide free business
-                    consultation to our potential clients who don't have
-                    in-depth knowledge of technicality of this field but have a
-                    desire to make changes in the conventional business methods
-                    and innovate it.we are happy to give them right
-                    guidance,solutions and services.
-                  </p>
+
+                  <div className="media-body">
+                    <h5>Experience</h5>
+                    <p className="wow fadeInUp">
+                      4+ YEARS OF INDUSTRY EXPERIENCE With the experience of
+                      over 4 years as an entity,we serve several clients across
+                      various sectors.so, we almost touched each sector.in
+                      addition,our clients were from all continents through out
+                      globe. We believe in learning and constantly evolving
+                      ourselves with a positive attitude that made us a mature
+                      and trustful organization.
+                    </p>
+                  </div>
+                  <div className="media-body">
+                    <h5>Full-Stack Team</h5>
+                    <p className="wow fadeInUp">
+                      We have teams of experienced and permanent full stack
+                      developers who are keenly interested in coding to provide
+                      high-quality & well written codes,and have the least bugs
+                      possible.This provided excellent and satisfactory results
+                      to our previous clients and the count of satisfaction
+                      still goes on.
+                    </p>
+                  </div>
+                  <div className="media-body">
+                    <h5>Free Business Consultation</h5>
+                    <p className="wow fadeInUp">
+                      We also provide free business consultation to our
+                      potential clients who don't have in-depth knowledge of
+                      technicality of this field but have a desire to make
+                      changes in the conventional business methods and innovate
+                      it.we are happy to give them right guidance,solutions and
+                      services.
+                    </p>
+                  </div>
                   {/* <a
                     href=".#"
                     className="seo_btn seo_btn_one btn_hover wow fadeInUp"

@@ -12,7 +12,7 @@ import Service from "./Pages/Service";
 import Process from "./Pages/Process";
 import Team from "./Pages/Team";
 import Portfolio2col from "./Pages/Portfolio-2col";
-import Portfolio3col from "./Pages/Portfolio-3col";
+import Portfolio from "./Pages/Portfolio";
 import Portfoliofull4col from "./Pages/Portfolio-fullwidth-4col";
 import PortfolioSingle from "./Pages/PortfolioSingle";
 import Bloglist from "./Pages/Bloglist";
@@ -37,6 +37,7 @@ import SignIn from "./Pages/SignIn";
 import SignUp from "./Pages/SignUp";
 import BlogGridPage from "./Pages/BlogGridPage";
 import NotFound from "./Pages/404";
+import Career from "./components/Career";
 
 class App extends Component {
   componentDidMount() {
@@ -55,6 +56,7 @@ class App extends Component {
             path="/Payment-processing"
             component={PaymentProcessing}
           />
+          <ScrollToTopRoute exact={true} path={"/Home"} component={Home} />
           <ScrollToTopRoute path="/HR-Management" component={HRManagement} />
           <ScrollToTopRoute path="/Startup" component={Startup} />
           <ScrollToTopRoute path="/Home-CRM" component={HomeCRM} />
@@ -63,13 +65,14 @@ class App extends Component {
           <ScrollToTopRoute path="/Process" component={Process} />
           <ScrollToTopRoute path="/Team" component={Team} />
           <ScrollToTopRoute path="/Portfolio-2col" component={Portfolio2col} />
-          <ScrollToTopRoute path="/Portfolio-3col" component={Portfolio3col} />
+          <ScrollToTopRoute path="/Portfolio" component={Portfolio} />
+          <ScrollToTopRoute path="/Career" component={Career} />
           <ScrollToTopRoute
             path="/Portfolio-fullwidth-4col"
             component={Portfoliofull4col}
           />
           <ScrollToTopRoute
-            path="/PortfolioSingle"
+            path="/Pages/PortfolioSingle"
             component={PortfolioSingle}
           />
           <ScrollToTopRoute path="/Bloglist" component={Bloglist} />

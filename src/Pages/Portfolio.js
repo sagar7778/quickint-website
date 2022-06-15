@@ -1,13 +1,11 @@
 import React from "react";
 import CustomNavbar from "../components/CustomNavbar";
 import Breadcrumb from "../components/Breadcrumb";
-import Portfoliosingle from "../components/Portfolios/Portfoliosingle";
+import Portfoliocols from "../components/Portfolios/Portfoliogrid";
 import FooterTwo from "../components/Footer/FooterTwo";
 import FooterData from "../components/Footer/FooterData";
 
-const About = (props) => {
-  const { projectDetails } = props.history.location.state;
-
+const Portfolio = () => {
   return (
     <div className="body_wrapper">
       <CustomNavbar
@@ -18,12 +16,12 @@ const About = (props) => {
       <Breadcrumb
         breadcrumbClass="breadcrumb_area"
         imgName="breadcrumb/banner_bg.png"
-        Ptitle="Portfolio Details"
+        Ptitle="Portfolio"
         Pdescription="Why I say old chap that is spiffing off his nut arse pear shaped plastered Jeffrey bodge barney some dodgy.!!"
       />
-      <Portfoliosingle projectDetails={projectDetails} />
+      <Portfoliocols />
       <FooterTwo FooterData={FooterData} />
     </div>
   );
 };
-export default About;
+export default Portfolio;

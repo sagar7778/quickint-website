@@ -165,7 +165,7 @@ const FooterData = {
       id: 1,
       image: "new/member_01.jpg",
       description:
-        "I am very happy with the work of Neel and his team, as I am not an IT guy. I don't know anything about it but he did his research and understands our business very well and made me software named exatt which completely boosted our slow operations and made it digital.",
+        "I am very happy with the work of Neel and his team, as I am not an IT guy. I don't know anything about it but he did his research and understandstood our business very well and made me software named exatt which completely boosted our slow operations and made it digital.",
       authorName: "Paras Patel",
       authorPost: "hi-tech laboratories pvt ltd",
     },
@@ -184,7 +184,7 @@ const FooterData = {
         "Neils got skills and ample room to grow by working hard on communication & self-management.",
       authorName: "Kishan Thobhani",
       authorPost: "Afkae Brothers",
-    }
+    },
   ],
   aboutLinks: [
     {
