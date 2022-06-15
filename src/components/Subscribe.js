@@ -1,8 +1,6 @@
 import React, { Component } from "react";
-import StudySlider from "../components/StudySlider";
 import SeoTitle from "../components/Title/SeoTitle";
 import Testimonial from "../components/Testimonial/Testimonial";
-import Fade from "react-reveal/Fade";
 
 class Subscribe extends Component {
   render() {

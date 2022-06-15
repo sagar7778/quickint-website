@@ -1,7 +1,6 @@
 import React from "react";
 import CustomNavbar from "../components/CustomNavbar";
 import Breadcrumb from "../components/Breadcrumb";
-import Partner from "../components/Partner";
 import FooterTwo from "../components/Footer/FooterTwo";
 import FooterData from "../components/Footer/FooterData";
 import Fade from "react-reveal/Fade";
