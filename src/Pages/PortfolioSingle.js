@@ -19,7 +19,7 @@ const About = (props) => {
         breadcrumbClass="breadcrumb_area"
         imgName="breadcrumb/banner_bg.png"
         Ptitle="Portfolio Details"
-        Pdescription="Why I say old chap that is spiffing off his nut arse pear shaped plastered Jeffrey bodge barney some dodgy.!!"
+        Pdescription="Check out what we have to offer you...Devlopment, customization, and much more.. "
       />
       <Portfoliosingle projectDetails={projectDetails} />
       <FooterTwo FooterData={FooterData} />

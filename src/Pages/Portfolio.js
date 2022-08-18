@@ -17,7 +17,7 @@ const Portfolio = () => {
         breadcrumbClass="breadcrumb_area"
         imgName="breadcrumb/banner_bg.png"
         Ptitle="Portfolio"
-        Pdescription="Why I say old chap that is spiffing off his nut arse pear shaped plastered Jeffrey bodge barney some dodgy.!!"
+        Pdescription="Check out what we have to offer you...Devlopment, customization, and much more.. "
       />
       <Portfoliocols />
       <FooterTwo FooterData={FooterData} />
