@@ -39,8 +39,7 @@ class Career extends Component {
           breadcrumbClass="breadcrumb_area"
           imgName="breadcrumb/banner_bg.png"
           Ptitle="Career"
-          Pdescription="Looking for your future? submit your resume and queries.
-          We got your back. "
+          Pdescription=" Join our team by dropping your resume here and get a chance to work with us."
         />
 
         <section className="contact_info_area sec_pad bg_color">

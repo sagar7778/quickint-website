@@ -17,7 +17,7 @@ const Portfolio = () => {
         breadcrumbClass="breadcrumb_area"
         imgName="breadcrumb/banner_bg.png"
         Ptitle="Portfolio"
-        Pdescription="Check out what we have to offer you...Devlopment, customization, and much more.. "
+        Pdescription="Check out what we have to offer. Devlopment, customization, and much more.! "
       />
       <Portfoliocols />
       <FooterTwo FooterData={FooterData} />

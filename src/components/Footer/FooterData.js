@@ -4,7 +4,7 @@ const FooterData = {
       id: 1,
       title: "GET IN TOUCH",
       description:
-        "Let's connect and see what we have to offer you.!",
+        "",
     },
   ],
   AboutWidget: [
@@ -69,7 +69,7 @@ const FooterData = {
   socialIcon: [
     {
       id: 1,
-      url: "https://www.facebook.com/",
+      url: "#",
       icon: "ti-facebook",
     },
     {

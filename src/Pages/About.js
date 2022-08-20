@@ -17,7 +17,7 @@ const About = () => {
         breadcrumbClass="breadcrumb_area"
         imgName="breadcrumb/banner_bg.png"
         Ptitle="About Us"
-        Pdescription="Check out what we have to offer you...Devlopment, customization, and much more.. "
+        Pdescription="Get better transperancy by knowing about our working ideologies, ethics and morals."
       />
       <Fade bottom cascade>
         <div className="about_us_container seo_features_content about_us_p">

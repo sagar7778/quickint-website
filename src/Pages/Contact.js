@@ -9,7 +9,8 @@ const About = () => {
     return(
         <div className="body_wrapper">
             <CustomNavbar slogo="sticky_logo" mClass="menu_four" nClass="w_menu ml-auto mr-auto"/>
-            <Breadcrumb breadcrumbClass="breadcrumb_area" imgName="breadcrumb/banner_bg.png" Ptitle="Contac Us" Pdescription="Check out what we have to offer you...Devlopment, customization, and much more.. "/>
+            <Breadcrumb breadcrumbClass="breadcrumb_area" imgName="breadcrumb/banner_bg.png" Ptitle="Contact Us" Pdescription="Have any queries?
+Our support team will be happy to assist you."/>
             <Contacts/>
             <FooterTwo FooterData={FooterData}/>
         </div>
