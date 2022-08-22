@@ -14,7 +14,7 @@ const AppGetstarted =()=>{
                             <div className="get_content">
                                 <h3 className="f_400 f_p wow fadeInLeft" data-wow-delay="0.2s">SaasLand</h3>
                                 <h2 className="f_700 f_p f_size_40 l_height50 mb_20 wow fadeInLeft" data-wow-delay="0.3s">Download this app Now</h2>
-                                <p className="f_400 f_p mb_40 wow fadeInLeft" data-wow-delay="0.4s">Why I say old chap that is spiffing barney, nancy boy bleeder chimney pot Richard cheers the little rotter so I said, easy peasy buggered blower bevvy A bit of how's your father he nicked.!</p>
+                                <p className="f_400 f_p mb_40 wow fadeInLeft" data-wow-delay="0.4s">Let's see what we hvae to offer you. see what you're seeking for.!</p>
                                 <a href=".#" className="app_btn app_btn_one wow fadeInLeft" data-wow-delay="0.5s"><img src={require('../img/home7/google_icon.png')} alt=""/>Google Play</a>
                                 <a href=".#" className="app_btn app_btn_two wow fadeInLeft" data-wow-delay="0.6s"><i className="fab fa-apple"></i>App Store</a>
                             </div>

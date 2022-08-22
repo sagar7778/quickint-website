@@ -17,7 +17,7 @@ const About = () => {
         breadcrumbClass="breadcrumb_area"
         imgName="breadcrumb/banner_bg.png"
         Ptitle="About Us"
-        Pdescription="Why I say old chap that is spiffing off his nut arse pear shaped plastered Jeffrey bodge barney some dodgy.!!"
+        Pdescription="Get better transperancy by knowing about our working ideologies, ethics and morals."
       />
       <Fade bottom cascade>
         <div className="about_us_container seo_features_content about_us_p">
@@ -33,7 +33,7 @@ const About = () => {
           </p>
 
           <p>
-            As it is briefly described in <a href=".#">our services</a> section,
+            As it is briefly described in <a href="/service">our services</a> section,
             we provide a range of services to our clients. Moreover, we also
             provide them free and precise business consultation and research
             products to target specific hurdles which restrain and moderate

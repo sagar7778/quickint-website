@@ -14,7 +14,7 @@ class HostingActionTwo extends Component {
                             </div>
                         </div>
                         <div className="col-md-4 text-right">
-                            <a href="/#" className="hosting_btn btn_hover">Get a free Estimate</a>
+                            <a href="/" className="hosting_btn btn_hover">Get a free Estimate</a>
                         </div>
                     </div>
                 </div>

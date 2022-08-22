@@ -15,7 +15,7 @@ const StBanner =() =>{
                         <Fade bottom cascade>
                         <div className="agency_content_two">
                             <h2 className="f_700 f_size_40 l_height50 w_color mb_20">Convert and Keep more customers from your location</h2>
-                            <p className="f_400 w_color l_height28">Why I say old chap that is spiffing off his nut arse pear shaped plastered Jeffrey bodge barney some dodgy.!!</p>
+                            <p className="f_400 w_color l_height28">Check out what we have to offer you...Devlopment, customization, and much more.. </p>
                             <div className="action_btn d-flex align-items-center mt_40">
                                 <a href=".#" className="btn_hover agency_banner_btn">Begin Today</a>
                             </div>

@@ -110,24 +110,7 @@ const Service = () => {
               </div>
             </Fade>
 
-            <Fade bottom duration={500}>
-              <div className="col-lg-4 col-md-6">
-                <div className="seo_service_item">
-                  <img src={require("../../img/seo/icon1.png")} alt="" />
-                  <a href=".#">
-                    <h4>Software consultation</h4>
-                  </a>
-                  <p>
-                    Our team will guide you to solve your problems and provide
-                    you with a digital platform to achieve your digital shift.
-                    Our guidance will be honest, reliable and trustworthy.
-                  </p>
-                  {/* <a href=".#">
-                    <i className="arrow_right"></i>
-                  </a> */}
-                </div>
-              </div>
-            </Fade>
+            
 
             <Fade bottom duration={700}>
               <div className="col-lg-4 col-md-6">

@@ -19,22 +19,7 @@ const DesignBanner = () => {
                     We are a credible organization that provides reliable solutions for <br /> Web and mobile app development, SEO, Customize software, and Graphic work to various clients throughout the globe.
                 </p>
               </Reveal>
-              <Reveal effect="fadeInLeft" duration={1200}>
-                <a
-                  href="./"
-                  className="seo_btn seo_btn_one btn_hover wow fadeInLeft"
-                >
-                  Get Started
-                </a>
-              </Reveal>
-              <Reveal effect="fadeInLeft" duration={1200}>
-                <a
-                  href="./"
-                  className="seo_btn seo_btn_two btn_hover wow fadeInRight"
-                >
-                  Learn More
-                </a>
-              </Reveal>
+              
             </div>
           </div>
           <div className="saas_home_img">

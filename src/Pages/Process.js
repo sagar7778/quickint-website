@@ -8,7 +8,7 @@ const Process = () => {
     return(
         <div className="body_wrapper">
             <CustomNavbar slogo="sticky_logo" mClass="menu_four" nClass="w_menu ml-auto mr-auto"/>
-            <Breadcrumb breadcrumbClass="breadcrumb_area" imgName="breadcrumb/banner_bg.png" Ptitle="Our Process" Pdescription="Why I say old chap that is spiffing off his nut arse pear shaped plastered Jeffrey bodge barney some dodgy.!!"/>
+            <Breadcrumb breadcrumbClass="breadcrumb_area" imgName="breadcrumb/banner_bg.png" Ptitle="Our Process" Pdescription="Check out what we have to offer you...Devlopment, customization, and much more.. "/>
             <section className="process_area bg_color sec_pad">
                 <div className="container">
                     <div className="features_info">

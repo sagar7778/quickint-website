@@ -74,7 +74,7 @@ class Career extends Component {
           breadcrumbClass="breadcrumb_area"
           imgName="breadcrumb/banner_bg.png"
           Ptitle="Career"
-          Pdescription="Why I say old chap that is spiffing off his nut arse pear shaped plastered Jeffrey bodge barney some dodgy.!!"
+          Pdescription=" Join our team by dropping your resume here and get a chance to work with us."
         />
 
         <section className="contact_info_area sec_pad bg_color">

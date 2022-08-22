@@ -126,9 +126,9 @@ class Subscribe extends Component {
                 <br /> You are just one step away, let’s build it together.
               </h2>
               <NavLink
-                title="Portfolio"
+                title="fiverr"
                 className="about_btn"
-                to="/Contact"
+                to="contactus"
                 style={{ width: 200 }}
               >
                 Get a free Estimate

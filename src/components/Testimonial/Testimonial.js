@@ -21,7 +21,7 @@ class Testimonial extends Component {
             speed: 500,
             arrows: true,
             autoplay: true,
-            autoplaySpeed: 2000,
+            autoplaySpeed: 2500,
             slidesToShow: 1,
             slidesToScroll: 1,
         };
