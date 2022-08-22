@@ -5,6 +5,7 @@ import FooterTwo from "../Footer/FooterTwo";
 import FooterData from "../Footer/FooterData";
 import Button from "@material-ui/core/Button";
 import styled from "styled-components";
+import Base_URL from "../../BaseURL";
 
 const Input = styled("input")({
   display: "none",
@@ -33,8 +34,8 @@ class Career extends Component {
       phoneNumber: phoneNumber,
       message: message
     };
-    debugger;
-    fetch('http://localhost:8000/api/career', {
+    
+    fetch(Base_URL + '/api/career', {
       method: 'POST',
       body: JSON.stringify(params),
       headers: {

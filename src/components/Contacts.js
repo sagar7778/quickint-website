@@ -105,6 +105,7 @@
 // export default Contacts;
 
 import React, { Component } from "react";
+import Base_URL from "../BaseURL";
 
 class Contacts extends Component {
   constructor() {
@@ -130,8 +131,7 @@ class Contacts extends Component {
       phoneNumber: phoneNumber,
       message: message
     };
-    debugger;
-    fetch('http://localhost:8000/api/contact', {
+    fetch(Base_URL + '/api/contact', {
       method: 'POST',
       body: JSON.stringify(params),
       headers: {
