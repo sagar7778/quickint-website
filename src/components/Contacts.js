@@ -122,6 +122,41 @@ class Contacts extends Component {
     this.setState({ [e.target.name]: e.target.value });
   };
 
+  submitForm = (e) => {
+    const { name, email, phoneNumber, message } = this.state;
+    const params = {
+      name: name,
+      email: email,
+      phoneNumber: phoneNumber,
+      message: message
+    };
+    debugger;
+    fetch('http://localhost:8000/api/contact', {
+      method: 'POST',
+      body: JSON.stringify(params),
+      headers: {
+        'Content-type': 'application/json; charset=UTF-8',
+      },
+    })
+       .then((response) => response.json())
+       .then((data) => {
+          console.log(data);
+          alert("Done");
+          // Handle data
+       })
+       .catch((err) => {
+          console.log(err.message);
+       });
+    // reset the fields
+    this.setState({
+      name: "",
+      email: "",
+      message: "",
+      emailStatus: "",
+    });
+    e.preventDefault();
+  };
+
   render() {
     // const {name, email, subject, message, emailStatus} = this.state;
     return (
