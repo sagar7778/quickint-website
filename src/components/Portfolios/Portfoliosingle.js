@@ -46,21 +46,10 @@ const Portfoliosingle = (props) => {
                     {projectDetails.services}
                   </p>
                 </div>
-                <div className="p_category_item">
-                  <p className="f_400 f_size_15 mb-0">Share on</p>
-                  <div className="social_icon">
-                    <a href=".#">
-                      <i className="ti-facebook"></i>
-                    </a>
-                    <a href=".#">
-                      <i className="ti-twitter-alt"></i>
-                    </a>
-                    <a href=".#">
-                      <i className="ti-google"></i>
-                    </a>
-                  </div>
-                </div>
+                
+              
               </div>
+              
               <div className="portfolio_pagination mt_100">
                 <a href=".#" className="prev">
                   <i className="ti-arrow-left"></i>Prev Project
