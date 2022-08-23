@@ -8010,6 +8010,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 /*============= seo_service_area css =============*/
 .seo_service_item {
+  height: 90%;
   background-color: white;
   -webkit-box-shadow: 0px 3px 10px 0px rgba(38, 59, 94, 0.1);
   box-shadow: 0px 3px 10px 0px rgba(38, 59, 94, 0.1);
@@ -10804,6 +10805,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .testimonial_slider_four .item {
   text-align: center;
   color: #fff;
+  margin-top: 80px; 
 }
 
 .testimonial_slider_four .item .author_img {
@@ -10813,10 +10815,6 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   display: inline-block;
   overflow: hidden;
   margin-bottom: 35px;
-}
-
-.testimonial_slider_four .item img {
-  width: auto;
 }
 
 .testimonial_slider_four .item p {

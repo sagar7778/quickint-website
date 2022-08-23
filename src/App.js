@@ -8,7 +8,7 @@ import HRManagement from "./Pages/HR-Management";
 import Startup from "./Pages/Startup";
 import HomeCRM from "./Pages/Home-CRM";
 import About from "./Pages/About";
-import Service from "./Pages/Service";
+import Service from "./components/Service/Service";
 import Process from "./Pages/Process";
 import Team from "./Pages/Team";
 import Portfolio2col from "./Pages/Portfolio-2col";

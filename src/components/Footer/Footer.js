@@ -19,7 +19,7 @@ class Footer extends Component {
                                                     <p>{widget.description}</p>
                                                     <form action="#" className="f_subscribe_two mailchimp" method="post">
                                                         <input type="text" name="EMAIL" className="form-control memail" placeholder="Email"/>
-                                                        <button className="btn btn_get btn_get_two" type="submit">Subscribe</button>
+                                                        <button className="btn btn_get btn_get_two" type="submit">Sign in</button>
                                                         <p className="mchimp-errmessage" style={{display: "none"}}></p>
                                                         <p className="mchimp-sucmessage" style={{display: "none"}}></p>
                                                     </form>
@@ -62,7 +62,8 @@ class Footer extends Component {
                                                     {
                                                         widget.menuItems.map(item =>{
                                                             return(
-                                                                <Link to="/" key={item.id}><i className={item.icon}></i></Link>
+                                                                <a href={item.url} key={item.id} target="_blank" rel="noopener noreferrer"><i className={item.icon}></i></a>
+
                                                             )
                                                         })
                                                     }

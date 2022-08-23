@@ -33,7 +33,7 @@ const About = () => {
           </p>
 
           <p>
-            As it is briefly described in <a href="/service">our services</a> section,
+            As it is briefly described in <a href="/Home">our services</a> section,
             we provide a range of services to our clients. Moreover, we also
             provide them free and precise business consultation and research
             products to target specific hurdles which restrain and moderate

@@ -45,23 +45,18 @@ const FooterData = {
       menuItems: [
         {
           id: 1,
-          url: "#",
-          icon: "ti-facebook",
+          url: "https://www.linkedin.com/company/quickint-solutions/",
+          icon: "ti-linkedin",
         },
         {
           id: 2,
-          url: "#",
+          url: "https://www.upwork.com/agencies/~01ac40e312f2bbadc2/",
           icon: "ti-twitter-alt",
         },
         {
           id: 3,
-          url: "#",
+          url: "https://www.fiverr.com/quickint?up_rollout=true",
           icon: "ti-vimeo-alt",
-        },
-        {
-          id: 4,
-          url: "#",
-          icon: "ti-pinterest",
         },
       ],
     },

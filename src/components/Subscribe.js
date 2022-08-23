@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
 
 import SeoTitle from "../components/Title/SeoTitle";
 import Testimonial from "../components/Testimonial/Testimonial";
@@ -125,14 +124,15 @@ class Subscribe extends Component {
                 Ready to get started?
                 <br /> You are just one step away, let’s build it together.
               </h2>
-              <NavLink
-                title="fiverr"
+              <a
                 className="about_btn"
-                to="contactus"
+                href="https://www.upwork.com/agencies/~01ac40e312f2bbadc2/"
                 style={{ width: 200 }}
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Get a free Estimate
-              </NavLink>
+              </a>
             </div>
           </div>
         </section>
