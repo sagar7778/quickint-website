@@ -9,9 +9,7 @@ const Portfolio2griditem = (props) => {
       <div className="portfolio_img">
         <img src={require("../../img/portfolio/" + pImg)} alt="" />
         <div className="hover_content">
-          <a href=".#" className="img_popup leaf">
-            <i className="ti-plus"></i>
-          </a>
+          
           <div className="portfolio-description leaf">
             <Link
               to={{

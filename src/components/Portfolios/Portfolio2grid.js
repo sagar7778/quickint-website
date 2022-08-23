@@ -53,9 +53,9 @@ class Portfolio2grid extends Component{
                         <div data-filter="product" className={`work_portfolio_item ${this.onActive('product')}`} onClick={() => {this.onFilterChange("product")}}>Product</div>
                     </div>
                     <div className="row portfolio_gallery mb_30" id="work-portfolio">
-                        <Portfolio2griditem colClass="col-lg-6 web fashion" pImg="2-columns/grid1.jpg" ptitle="Apple Mobile Mockup" tOne="Web" tTwo="Fashion"/>
-                        <Portfolio2griditem colClass="col-lg-6 develop" pImg="2-columns/grid2.jpg" ptitle="Interior Design" tOne="Develop"/>
-                        <Portfolio2griditem colClass="col-lg-6 web" pImg="2-columns/grid3.jpg" ptitle="Portfolio Center Slider" tOne="Web" tTwo="Fashion"/>
+                        <Portfolio2griditem colClass="col-lg-6 web fashion" pImg="portfolionew/mitti.png" ptitle="mitti" tOne="" tTwo=""/>
+                        <Portfolio2griditem colClass="col-lg-6 develop" pImg="portfolionew/excalt.png" ptitle="Excalt" tOne=""/>
+                        <Portfolio2griditem colClass="col-lg-6 web" pImg="portfolionew/greendoor.png" ptitle=" " tOne="" tTwo=""/>
                         <Portfolio2griditem colClass="col-lg-6 fashion" pImg="2-columns/grid4.jpg" ptitle="Portfolio Masonry" tOne="fashion"/>
                         <Portfolio2griditem colClass="col-lg-6 ux brand" pImg="2-columns/grid5.jpg" ptitle="Double Exposure" tOne="UX" tTwo="Brand"/>
                         <Portfolio2griditem colClass="col-lg-6 product" pImg="2-columns/grid6.jpg" ptitle="American Burger" tOne="Product" />

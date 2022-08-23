@@ -12104,19 +12104,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   transition: color 0.01s linear;
 }
 
-.portfolio-description .links a:before {
-  content: "";
-  width: 0;
-  height: 1px;
-  bottom: 0;
-  background: #0a67b1;
-  position: absolute;
-  left: auto;
-  right: 0;
-  -webkit-transition: width 0.3s linear;
-  -o-transition: width 0.3s linear;
-  transition: width 0.3s linear;
-}
+
 
 .portfolio-description .links a:hover {
   color: #0a67b1;
