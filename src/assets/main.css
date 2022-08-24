@@ -11955,6 +11955,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   position: relative;
   cursor: pointer;
   overflow: hidden;
+  height: 400px;
+  width: 370px;
 }
 
 .portfolio_gallery .portfolio_item .portfolio_img img {
@@ -22973,23 +22975,17 @@ a .h_head:hover {
   color: #0a67b1;
 }
 
-.new_footer_top .f_social_icon a {
-  width: 44px;
-  height: 44px;
+.new_footer_top .f_social_icon img {
+  width: 46px;
+  height: 46px;
   line-height: 43px;
   background: transparent;
-  border: 1px solid #e2e2eb;
   font-size: 12px;
 }
 
-.new_footer_top .f_social_icon a:hover {
-  background: #0a67b1;
-  border-color: #0a67b1;
-}
-
-.new_footer_top .f_social_icon a + a {
+/* .new_footer_top .f_social_icon img + img {
   margin-left: 4px;
-}
+} */
 
 .new_footer_top .footer_bg {
   position: absolute;

@@ -1,7 +1,7 @@
 export const portfolio_list = [
   {
     colClass: "col-lg-4 col-sm-6 web fashion",
-    pImg: "3-columns/3_col_1.jpg",
+    pImg: "3-columns/mitti.png",
     tOne: "Web",
     tTwo: "Fashion",
     projectDetails: {

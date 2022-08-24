@@ -46,17 +46,17 @@ const FooterData = {
         {
           id: 1,
           url: "https://www.linkedin.com/company/quickint-solutions/",
-          icon: "ti-linkedin",
+          icon_img: "linkedin.png",
         },
         {
           id: 2,
           url: "https://www.upwork.com/agencies/~01ac40e312f2bbadc2/",
-          icon: "ti-twitter-alt",
+          icon_img: "upwork.png",
         },
         {
           id: 3,
           url: "https://www.fiverr.com/quickint?up_rollout=true",
-          icon: "ti-vimeo-alt",
+          icon_img: "fiverr.png",
         },
       ],
     },
