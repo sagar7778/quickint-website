@@ -3,13 +3,8 @@ import CustomNavbar from "../CustomNavbar";
 import Breadcrumb from "../Breadcrumb";
 import FooterTwo from "../Footer/FooterTwo";
 import FooterData from "../Footer/FooterData";
-import Button from "@material-ui/core/Button";
-import styled from "styled-components";
 import Base_URL from "../../BaseURL";
 
-const Input = styled("input")({
-  display: "none",
-});
 
 class Career extends Component {
   constructor() {
@@ -19,6 +14,7 @@ class Career extends Component {
       email: "",
       phoneNumber: "",
       message: "",
+      myFile: ""
     };
     this.handleChange = this.handleChange.bind(this);
   }
@@ -27,31 +23,32 @@ class Career extends Component {
     this.setState({ [e.target.name]: e.target.value });
   };
   submitForm = (e) => {
-    const { name, email, phoneNumber, message } = this.state;
+    const { name, email, phoneNumber, message, myFile } = this.state;
     const params = {
       name: name,
       email: email,
       phoneNumber: phoneNumber,
-      message: message
+      message: message,
+      myFile: myFile,
     };
-    
-    fetch(Base_URL + '/api/career', {
-      method: 'POST',
+
+    fetch(Base_URL + "/api/career", {
+      method: "POST",
       body: JSON.stringify(params),
       headers: {
-        'Content-type': 'application/json; charset=UTF-8',
+        "Content-type": "application/json; charset=UTF-8",
       },
     })
-       .then((response) => response.json())
-       .then((data) => {
-          console.log(data);
-          alert("Done");
-          // Handle data
-       })
-       .catch((err) => {
-          console.log(err.message);
-       });
-       
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
+        alert("Done");
+        // Handle data
+      })
+      .catch((err) => {
+        console.log(err.message);
+      });
+
     //reset the fields
     this.setState({
       name: "",
@@ -63,7 +60,6 @@ class Career extends Component {
   };
 
   render() {
-    // const {name, email, subject, message, emailStatus} = this.state;
     return (
       <div className="body_wrapper">
         <CustomNavbar
@@ -166,15 +162,12 @@ class Career extends Component {
                     <div className="col-lg-12">
                       <div className="form-group text_box">
                         <label htmlFor="contained-button-file">
-                          <Input
-                            accept="pdf/*"
-                            id="contained-button-file"
-                            multiple
+                          <input
                             type="file"
+                            id="myFile"
+                            name="myFile"
+                            onChange={this.handleChange}
                           />
-                          <Button variant="contained" component="span">
-                            Upload
-                          </Button>
                         </label>
                       </div>
                     </div>
