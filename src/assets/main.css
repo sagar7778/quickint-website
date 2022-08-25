@@ -215,6 +215,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .f_400 {
   font-weight: 400;
+  width: 300px;
 }
 
 .f_500 {
@@ -12007,9 +12008,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .portfolio_gallery .portfolio_item .portfolio_img .hover_content .portfolio-description {
-  bottom: 0;
-  padding-left: 50px;
-  padding-bottom: 48px;
+  text-align: center;
+  margin: 195px 0px;
   width: 100%;
 }
 
@@ -22193,8 +22193,8 @@ a .h_head:hover {
 }
 
 .f_social_icon a {
-  width: 46px;
-  height: 46px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   font-size: 14px;
   line-height: 45px;
@@ -22208,7 +22208,7 @@ a .h_head:hover {
 }
 
 .f_social_icon a:hover {
-  background: #00aff0;
+  background: #1d67b1;
   color: #fff;
 }
 
@@ -22976,16 +22976,17 @@ a .h_head:hover {
 }
 
 .new_footer_top .f_social_icon img {
-  width: 46px;
-  height: 46px;
+  width: 30px;
+  height: 30px;
   line-height: 43px;
   background: transparent;
   font-size: 12px;
+  margin-bottom: 15px;
 }
 
-/* .new_footer_top .f_social_icon img + img {
+.new_footer_top .f_social_icon img + img {
   margin-left: 4px;
-} */
+}
 
 .new_footer_top .footer_bg {
   position: absolute;

@@ -13,16 +13,13 @@ export const portfolio_list = [
       website: "project website",
       services: "project services",
       projectImgs: [
-        require("../img/portfolio-details/pr_details1.jpg"),
-        require("../img/portfolio-details/pr_details2.jpg"),
-        require("../img/portfolio-details/pr_details3.jpg"),
-        require("../img/portfolio-details/pr_details4.jpg"),
+        require("../img/portfolio-details/mitti_2.png"),
       ],
     },
   },
   {
     colClass: "col-lg-4 col-sm-6 develop",
-    pImg: "3-columns/3_col_2.jpg",
+    pImg: "3-columns/excalt.png",
     tOne: "Develop",
     projectDetails: {
       ptitle: "EXACTT LIMS",
@@ -33,16 +30,13 @@ export const portfolio_list = [
       website: "project website",
       services: "project services",
       projectImgs: [
-        require("../img/portfolio-details/pr_details1.jpg"),
-        require("../img/portfolio-details/pr_details2.jpg"),
-        require("../img/portfolio-details/pr_details3.jpg"),
-        require("../img/portfolio-details/pr_details4.jpg"),
+        require("../img/portfolio-details/excalt.png"),
       ],
     },
   },
   {
     colClass: "col-lg-4 col-sm-6 web",
-    pImg: "3-columns/3_col_3.jpg",
+    pImg: "3-columns/greendoor.png",
     tOne: "Web",
     tTwo: "Fashion",
     projectDetails: {
@@ -54,16 +48,13 @@ export const portfolio_list = [
       website: "project website",
       services: "project services",
       projectImgs: [
-        require("../img/portfolio-details/pr_details1.jpg"),
-        require("../img/portfolio-details/pr_details2.jpg"),
-        require("../img/portfolio-details/pr_details3.jpg"),
-        require("../img/portfolio-details/pr_details4.jpg"),
+        require("../img/portfolio-details/greendoor.png"),
       ],
     },
   },
   {
     colClass: "col-lg-4 col-sm-6 fashion",
-    pImg: "3-columns/3_col_4.jpg",
+    pImg: "3-columns/techfenix.png",
     tOne: "fashion",
     projectDetails: {
       ptitle: "TECHFENIX",
@@ -74,16 +65,13 @@ export const portfolio_list = [
       website: "project website",
       services: "project services",
       projectImgs: [
-        require("../img/portfolio-details/pr_details1.jpg"),
-        require("../img/portfolio-details/pr_details2.jpg"),
-        require("../img/portfolio-details/pr_details3.jpg"),
-        require("../img/portfolio-details/pr_details4.jpg"),
+        require("../img/portfolio-details/techfenix.png"),
       ],
     },
   },
   {
     colClass: "col-lg-4 col-sm-6 ux brand",
-    pImg: "3-columns/3_col_5.jpg",
+    pImg: "3-columns/orijin.png",
     tOne: "UX",
     tTwo: "Brand",
     projectDetails: {
@@ -95,10 +83,7 @@ export const portfolio_list = [
       website: "project website",
       services: "project services",
       projectImgs: [
-        require("../img/portfolio-details/pr_details1.jpg"),
-        require("../img/portfolio-details/pr_details2.jpg"),
-        require("../img/portfolio-details/pr_details3.jpg"),
-        require("../img/portfolio-details/pr_details4.jpg"),
+        require("../img/portfolio-details/orijin.png"),
       ],
     },
   },

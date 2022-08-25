@@ -41,7 +41,7 @@ const FooterData = {
   SocialLinks: [
     {
       id: 1,
-      title: "Our Socials",
+      title: "Connect With Us On",
       menuItems: [
         {
           id: 1,
