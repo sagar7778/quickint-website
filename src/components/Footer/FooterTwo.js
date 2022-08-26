@@ -20,7 +20,7 @@ class FooterTwo extends Component {
                         className="f_widget company_widget wow fadeInLeft"
                         data-wow-delay="0.2s"
                       >
-                        <a href="index.html" className="f-logo">
+                        <a href="/Home" className="f-logo">
                           <img src={require("../../img/logo.png")} alt="" />
                         </a>
                         <div className="widget-wrap">

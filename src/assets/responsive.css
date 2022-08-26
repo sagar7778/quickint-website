@@ -72,6 +72,7 @@
     }
     .company_widget img,.protype_img{
         max-width: 100%;
+        width: 100%;
     }
     .p_feature_item .p_feture_img_one {
          margin-right: -20px; 
