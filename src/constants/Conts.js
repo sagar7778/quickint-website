@@ -1,5 +1,6 @@
 export const portfolio_list = [
   {
+    id: 1,
     colClass: "col-lg-4 col-sm-6 web fashion",
     pImg: "3-columns/mitti.png",
     tOne: "Web",
@@ -18,23 +19,25 @@ export const portfolio_list = [
     },
   },
   {
+    id: 2,
     colClass: "col-lg-4 col-sm-6 develop",
-    pImg: "3-columns/excalt.png",
+    pImg: "3-columns/excalt.jpg",
     tOne: "Develop",
     projectDetails: {
       ptitle: "EXACTT LIMS",
       aboutProject:
         "EXACTT is a laboratory information management system which is a software that allows testing laboratories to effectively manage sample and associated data that is standardized by BIS(Bureau of Indian Standard). It is highly concentrated to automate workflows, integrate instruments and manage systems. Main features of this software is to manage order entries, process various specimens, record each test record that we conducted and store the data for further analysis. Main aim of the EXACTT is to replace existing slow and complex system into robust system by giving the whole process a digital platform with modern UX and fast data queries with multiple role control.",
-      client: "client name",
+      client: "Paras Patel",
       date: "project date",
-      website: "project website",
-      services: "project services",
+      website: "https://hitechlab.business.site",
+      services: "Provide Quality assurance services for drinkable water, food & beverages and pharmaceuticals according to various health standards and government regulations with standard testing methods.",
       projectImgs: [
         require("../img/portfolio-details/excalt.png"),
       ],
     },
   },
   {
+    id: 3,
     colClass: "col-lg-4 col-sm-6 web",
     pImg: "3-columns/greendoor.png",
     tOne: "Web",
@@ -43,16 +46,17 @@ export const portfolio_list = [
       ptitle: "GREEN DOORS",
       aboutProject:
         "Green doors is an all-in-one property management platform based in CANADA for landlords and growing property management companies. For most property owners, one of the major barriers to holding property as an asset class is the issue of maintenance of that rental property. As a result, we created a platform on which we provide some tools which can help to manage rental properties. This platform aims to serve landlords, property managers and student housing and the main features of this are rent collection, real time analysis, document storage, maintenance assistants & tracking, and smart amenities. In addition to that, it has separate owner and resident portals to enhance practicality and user experience. This platform is awarded as a top management solution by proptech outlook magazine.it also provides transaction facilities as all-in-one facility for everything about renting property. As a growing demand of rental properties this platform has huge potential to replace the conventional methods and hurdles of managing property on business scale.",
-      client: "client name",
+      client: "Rishabh Rastogi",
       date: "project date",
       website: "project website",
       services: "project services",
       projectImgs: [
-        require("../img/portfolio-details/greendoor.png"),
+        require("../img/portfolio-details/greendoor.jpg"),
       ],
     },
   },
   {
+    id: 4,
     colClass: "col-lg-4 col-sm-6 fashion",
     pImg: "3-columns/techfenix.png",
     tOne: "fashion",
@@ -65,11 +69,13 @@ export const portfolio_list = [
       website: "project website",
       services: "project services",
       projectImgs: [
-        require("../img/portfolio-details/techfenix.png"),
+        require("../img/portfolio-details/Techfenix1.png"),
+        require("../img/portfolio-details/Techfenix2.png"),
       ],
     },
   },
   {
+    id: 5,
     colClass: "col-lg-4 col-sm-6 ux brand",
     pImg: "3-columns/orijin.png",
     tOne: "UX",
@@ -83,7 +89,7 @@ export const portfolio_list = [
       website: "project website",
       services: "project services",
       projectImgs: [
-        require("../img/portfolio-details/orijin.png"),
+        require("../img/portfolio-details/orijin.jpeg"),
       ],
     },
   },

@@ -64,23 +64,18 @@ const FooterData = {
   socialIcon: [
     {
       id: 1,
-      url: "#",
-      icon: "ti-facebook",
+      url: "https://www.linkedin.com/company/quickint-solutions/",
+      icon: "linkedin.png",
     },
     {
       id: 2,
-      url: "#",
-      icon: "ti-twitter-alt",
+      url: "https://www.upwork.com/agencies/~01ac40e312f2bbadc2/",
+      icon: "upwork.png",
     },
     {
       id: 3,
-      url: "#",
-      icon: "ti-vimeo-alt",
-    },
-    {
-      id: 4,
-      url: "#",
-      icon: "ti-pinterest",
+      url: "https://www.fiverr.com/quickint?up_rollout=true",
+      icon: "fiverr.png",
     },
   ],
   copywrite: "© Quickint Solutions.. 2022 All rights reserved.",
@@ -89,7 +84,7 @@ const FooterData = {
       id: 1,
       image: "new/member_01.jpg",
       description:
-        "I am very happy with the work of Neel and his team, as I am not an IT guy. I don't know anything about it but he did his research and understandstood our business very well and made me software named exatt which completely boosted our slow operations and made it digital.",
+        "I am very happy with the work of Quickint Solutions, as I am not an IT guy. I don't know anything about it but he did his research and understandstood our business very well and made me software named exatt which completely boosted our slow operations and made it digital.",
       authorName: "Paras Patel",
       authorPost: "hi-tech laboratories pvt ltd",
     },

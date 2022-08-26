@@ -9,7 +9,7 @@ class Footer extends Component {
         <div className="new_footer_top">
           <div className="container">
             <div className="row">
-              {FooterData.CompanyWidget.map((widget) => {
+              {/* {FooterData.CompanyWidget.map((widget) => {
                 return (
                   <Reveal effect="fadeInLeft" duration={500} key={1}>
                     <div className="col-lg-3 col-md-6">
@@ -51,7 +51,7 @@ class Footer extends Component {
                     </div>
                   </Reveal>
                 );
-              })}
+              })} */}
               {FooterData.AboutWidget.map((widget) => {
                 return (
                   <Reveal effect="fadeInLeft" duration={500} key={widget.id}>

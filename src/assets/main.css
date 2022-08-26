@@ -22148,7 +22148,8 @@ a .h_head:hover {
   color: #6754e2;
 }
 
-.f_social_icon_two a {
+.f_social_icon_two img {
+  width: 20px;
   font-size: 14px;
   color: #969db4;
   margin: 0px 8px;

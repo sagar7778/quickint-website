@@ -18,7 +18,7 @@ const Portfoliosingle = (props) => {
               <div className="portfolio_category mt_60">
                 <div className="p_category_item mb-30">
                   <h6 className="f_p f_size_15 f_400 t_color3 mb-0 l_height28">
-                    Client:{" "}
+                    Client:
                   </h6>
                   <p className="f_size_15 f_400 mb-0">
                     {projectDetails.client}
@@ -26,30 +26,32 @@ const Portfoliosingle = (props) => {
                 </div>
                 <div className="p_category_item mb-30">
                   <h6 className="f_p f_size_15 f_400 t_color3 mb-0 l_height28">
-                    Date:{" "}
+                    Date:
                   </h6>
                   <p className="f_size_15 f_400 mb-0">{projectDetails.date}</p>
                 </div>
                 <div className="p_category_item mb-30">
                   <h6 className="f_p f_size_15 f_400 t_color3 mb-0 l_height28">
-                    Website:{" "}
+                    Website:
                   </h6>
-                  <p className="f_size_15 f_400 mb-0">
+                  <a
+                    className="f_size_15 f_400 mb-0"
+                    href={projectDetails.website}
+                    target="_blank"
+                  >
                     {projectDetails.website}
-                  </p>
+                  </a>
                 </div>
                 <div className="p_category_item mb-30">
                   <h6 className="f_p f_size_15 f_400 t_color3 mb-0 l_height28">
-                    Services:{" "}
+                    Services:
                   </h6>
                   <p className="f_size_15 f_400 mb-0">
                     {projectDetails.services}
                   </p>
                 </div>
-                
-              
               </div>
-              
+
               <div className="portfolio_pagination mt_100">
                 <a href=".#" className="prev">
                   <i className="ti-arrow-left"></i>Prev Project

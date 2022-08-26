@@ -40,7 +40,7 @@ class FooterTwo extends Component {
                             </a>
                           </p>
                         </div>
-                        <form
+                        {/* <form
                           action="#"
                           className="f_subscribe mailchimp"
                           method="post"
@@ -54,7 +54,7 @@ class FooterTwo extends Component {
                           <button className="btn btn-submit" type="submit">
                             <i className="ti-arrow-right"></i>
                           </button>
-                        </form>
+                        </form> */}
                       </div>
                     </div>
                   </Reveal>
@@ -79,8 +79,16 @@ class FooterTwo extends Component {
                 <div className="f_social_icon_two text-center">
                   {FooterData.socialIcon.map((item) => {
                     return (
-                      <a href="/" key={item.id}>
-                        <i className={item.icon}></i>
+                      <a
+                        href={item.url}
+                        key={item.id}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <img
+                          src={require(`../../img/social/${item.icon}`)}
+                          alt=""
+                        />
                       </a>
                     );
                   })}

@@ -50,8 +50,6 @@ class Portfoliogrid extends Component {
                 <Portfolio2griditem
                   colClass={item.colClass}
                   pImg={item.pImg}
-                  tOne={item.tOne}
-                  tTwo={item.tTwo}
                   projectDetails={item.projectDetails}
                 />
               );
