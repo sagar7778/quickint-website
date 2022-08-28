@@ -23004,8 +23004,8 @@ a .h_head:hover {
   position: absolute;
   bottom: 0;
   left: 30%;
-  -webkit-animation: myfirst 22s  linear infinite;
-  animation: myfirst 22s  linear infinite;
+  -webkit-animation: myfirst 25s  linear infinite;
+  animation: myfirst 25s  linear infinite;
 }
 
 .new_footer_top .footer_bg .footer_bg_two {
@@ -23015,8 +23015,8 @@ a .h_head:hover {
   bottom: 0;
   left: 38%;
   position: absolute;
-  -webkit-animation: myfirst 30s  linear infinite;
-  animation: myfirst 30s  linear infinite;
+  -webkit-animation: myfirst 35s  linear infinite;
+  animation: myfirst 35s  linear infinite;
 }
 
 @-moz-keyframes myfirst {
