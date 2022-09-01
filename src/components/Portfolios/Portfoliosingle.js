@@ -38,6 +38,7 @@ const Portfoliosingle = (props) => {
                     className="f_size_15 f_400 mb-0"
                     href={projectDetails.website}
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     {projectDetails.website}
                   </a>
