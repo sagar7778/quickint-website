@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "pe-7s-smile",
+    "txt": "Happy Clients",
+    "value": "26"
+  },
+  {
+    "id": 2,
+    "icon": "pe-7s-portfolio",
+    "txt": "Successful Projects",
+    "value": "51"
+  },
+  {
+    "id": 3,
+    "icon": "pe-7s-cloud-download",
+    "txt": "International Reach",
+    "value": "6"
+  },
+  {
+    "id": 4,
+    "icon": "pe-7s-medal",
+    "txt": "Hours of work",
+    "value": "1200"
+  }
+]

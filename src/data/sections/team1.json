@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "image": "/img/team/01.jpg",
+    "name": "Neel Patel",
+    "title": "Founder & CTO"
+  },
+  {
+    "id": 2,
+    "image": "/img/team/02.jpg",
+    "name": "Aman Patel",
+    "title": "BDA"
+  },
+  {
+    "id": 3,
+    "image": "/img/team/03.jpg",
+    "name": "Dhansukh",
+    "title": "React devloper"
+  },
+  {
+    "id": 4,
+    "image": "/img/team/4.jpg",
+    "name": " Priyanka Maneria",
+    "title": "Jr. Devloper"
+  },
+  {
+    "id": 5,
+    "image": "/img/team/5.jpg",
+    "name": "Ayushya Patel",
+    "title": "Jr. Devloper"
+  }
+]
