@@ -5,8 +5,10 @@ import Split from "../../components/Split";
 import DarkTheme from "../../layouts/Dark";
 import addParlx from "../../common/addParlx";
 import initIsotope from "../../common/initIsotope";
+import { useRouter } from "next/router";
 
 const Demos = () => {
+  const router = useRouter()
   const fixedHeader = React.useRef(null);
   const MainContent = React.useRef(null);
 
@@ -542,8 +544,8 @@ const Demos = () => {
           <div className="container">
             <div className="copyrights text-center mt-0">
               <p>
-                © 2022, Avo Template. Made with passion by
-                <a href="#0">ThemesCamp</a>.
+                © 2022 Reserved by 
+                <a onClick={() => router.push("/")}  style={{marginLeft: 5}}>Quickint Solutions</a>.
               </p>
             </div>
           </div>

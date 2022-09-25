@@ -35,9 +35,9 @@ const IntroWithSlider1 = ({ sliderRef }) => {
       <div className="swiper-container parallax-slider">
         {!load ? (
           <Swiper
-            speed={3000}
+            speed={2000}
             autoplay={{
-              delay: 1000,
+              delay: 5000,
               disableOnInteraction: true,
             }}
             parallax={true}

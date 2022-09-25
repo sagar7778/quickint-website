@@ -2,8 +2,11 @@
 import React from "react";
 import { Formik, Form, Field } from "formik";
 import appData from "../../data/app.json";
+import { useRouter } from "next/router";
 
 const Footer = () => {
+  const router = useRouter()
+
   function validateEmail(value) {
     let error;
     if (!value) {
@@ -21,8 +24,8 @@ const Footer = () => {
           <div className="col-lg-5">
             <div className="cont">
               <div className="logo">
-                <a href="#0">
-                  <img src={`${appData.lightLogo}`} alt="" />
+                <a onClick={() => router.push("/")}>
+                  <img src={`${appData.darkLogo}`} alt="" />
                 </a>
               </div>
               <div className="con-info custom-font">
@@ -41,13 +44,13 @@ const Footer = () => {
               <div className="social-icon">
                 <h6 className="custom-font stit simple-btn">SOCIALS</h6>
                 <div className="social">
-                  <a href="https://www.upwork.com/o/companies/~01ac40e312f2bbadc2/" target="_blank" className="icon">
+                  <a href="https://www.upwork.com/o/companies/~01ac40e312f2bbadc2/" target="_blank" rel="noreferrer" className="icon">
                     <i className="fab fa-linkedin"></i>
                   </a>
-                  <a href="https://www.linkedin.com/company/quickint-solutions/" target="_blank" className="icon">
+                  <a href="https://www.linkedin.com/company/quickint-solutions/" target="_blank" rel="noreferrer" className="icon">
                     <i className="fab fa-twitter"></i>
                   </a>
-                  <a href="https://www.fiverr.com/" target="_blank" className="icon">
+                  <a href="https://www.fiverr.com/" target="_blank" rel="noreferrer" className="icon">
                     <i className="fab fa-pinterest"></i>
                   </a>
                   </div>
@@ -92,8 +95,8 @@ const Footer = () => {
         </div>
         <div className="copyrights text-center">
           <p>
-            © 2022, Reserved by 
-            <a href="#0">Quickint. Solutions</a>.
+            © 2022 Reserved by 
+            <a onClick={() => router.push("/")}  style={{marginLeft: 5}}>Quickint Solutions</a>.
           </p>
         </div>
       </div>

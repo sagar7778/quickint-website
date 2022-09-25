@@ -67,7 +67,7 @@ const VideoWithTestimonials = () => {
                 >
                   <div className="item">
                     <p>
-                    I am very happy with the work of neel and his team, as I am not an IT guy. I don't know anything about it but he did his research and understands our business very well and made me software named exatt which completely boosted our slow operations and made it digital.
+                    I am very happy with the work of neel and his team, as I am not an IT guy. I dont know anything about it but he did his research and understands our business very well and made me software named exatt which completely boosted our slow operations and made it digital.
                     </p>
                     <div className="info">
                       <div className="cont">

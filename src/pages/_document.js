@@ -15,14 +15,14 @@ class MyDocument extends Document {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="keywords"
-            content="HTML5 Template Avo onepage themeforest"
+            content="software companys ahmedabad react js react native mobile app development"
           />
           <meta
             name="description"
-            content="Avo - Onepage Multi-Purpose HTML5 Template"
+            content="Quickint Solutions"
           />
           <meta name="author" content="" />
-          <link rel="shortcut icon" href="/img/favicon.ico" />
+          <link rel="shortcut icon" href="/img/favicon.png" />
           {/* Google Fonts */}
           <link
             href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"

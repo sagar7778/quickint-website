@@ -4,6 +4,7 @@ import addParlx from "../../common/addParlx";
 import Navbar from "../../components/Navbar";
 import CallToAction from "../../components/Call-to-action";
 import PortfolioTwoColumn from "../../components/Portfolio-two-column";
+import { useRouter } from "next/router";
 
 const Works4Dark = () => {
   const fixedHeader = React.useRef(null);
@@ -42,6 +43,8 @@ const Works4Dark = () => {
     });
   }, [fixedHeader, MainContent, navbarRef]);
 
+  const router = useRouter()
+
   return (
     <DarkTheme>
       <Navbar nr={navbarRef} lr={logoRef} />
@@ -75,8 +78,8 @@ const Works4Dark = () => {
           <div className="container">
             <div className="copyrights text-center mt-0">
               <p>
-                © 2022, Avo Template. Made with passion by
-                <a href="#0">ThemesCamp</a>.
+                © 2022 Reserved by
+                <a onClick={() => router.push("/")}  style={{marginLeft: 5}}>Quickint Solutions</a>.
               </p>
             </div>
           </div>

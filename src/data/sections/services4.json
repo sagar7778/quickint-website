@@ -1,9 +1,10 @@
 [
+  [
     {
-        "id": 1,
-        "title": "Web and mobile app devlopment",
-        "icon": "pe-7s-gleam",
-        "content": "Digitize your business with our custom, user-friendly and state of the art web and mobile apps."
+      "id": 1,
+      "title": "Web and mobile app devlopment",
+      "icon": "pe-7s-gleam",
+      "content": "Digitize your business with our custom, user-friendly and state of the art web and mobile apps."
     },
     {
       "id": 2,
@@ -13,26 +14,29 @@
     },
     {
       "id": 3,
-      "title": "Manual testing and quality assurance",
+      "title": "Quality assurance",
       "icon": "pe-7s-magic-wand",
       "content": "Let our quality analysts check your existing or newly developed digital service, least bugs and high quality codes."
-    },
+    }
+  ],
+  [
     {
       "id": 4,
       "title": "Digital innovation",
       "icon": "pe-7s-gleam",
       "content": "Innovate your conventional business procedures with us on our digital innovation platform."
-     },
+    },
     {
-    "id": 5,
-    "title": "SEO",
-    "icon": "pe-7s-phone",
-    "content": "We can provide you with SEO support which can highlight and differentiate your business in this competitive market."
-      },
-      {
-    "id": 6,
-    "title": "Digital marketing & Graphic designing",
-    "icon": "pe-7s-magic-wand",
-    "content": "We will help you with digital marketing, UX/UI designing, content development, logo designing and other services."
-  }
+      "id": 5,
+      "title": "SEO",
+      "icon": "pe-7s-phone",
+      "content": "We can provide you with SEO support which can highlight and differentiate your business in this competitive market."
+    },
+    {
+      "id": 6,
+      "title": "Digital marketing & Graphic designing",
+      "icon": "pe-7s-magic-wand",
+      "content": "We will help you with digital marketing, UX/UI designing, content development, logo designing and other services."
+    }
+  ]
 ]

@@ -1,7 +1,10 @@
 import React from "react";
 import { Formik, Form, Field } from "formik";
+import { useRouter } from "next/router";
 
 const ContactWithMap = () => {
+  const router = useRouter()
+  
   const messageRef = React.useRef(null);
   function validateEmail(value) {
     let error;
@@ -13,6 +16,7 @@ const ContactWithMap = () => {
     return error;
   }
   const sendMessage = (ms) => new Promise((r) => setTimeout(r, ms));
+  
   return (
     <>
       <section className="contact section-padding">
@@ -148,8 +152,8 @@ const ContactWithMap = () => {
         <div className="container">
           <div className="copyrights text-center mt-0">
             <p>
-              © 2022, Avo Template. Made with passion by 
-              <a href="#0">ThemesCamp</a>.
+              © 2022 Reserved by 
+              <a onClick={() => router.push("/")}  style={{marginLeft: 5}}>Quickint Solutions</a>.
             </p>
           </div>
         </div>
