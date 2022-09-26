@@ -8,9 +8,15 @@ import ProjectDetailsDescription from "../../components/Project-details-descript
 import ProjectDetailsVideo from "../../components/Project-details-video";
 import NextProject from "../../components/Next-project";
 import SmallFooter from "../../components/Small-footer";
+import { useRouter } from "next/router";
+import projectsData from "./projectsData";
+
 const ProjectDetailsDark = () => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
+  const router = useRouter();
+  const { pid } = router.query;
+
   React.useEffect(() => {
     var navbar = navbarRef.current,
       logo = logoRef.current;
@@ -27,13 +33,17 @@ const ProjectDetailsDark = () => {
       }
     });
   }, [navbarRef]);
+  console.log(pid, pid);
+
   return (
     <DarkTheme>
       <Navbar nr={navbarRef} lr={logoRef} />
-      <ProjectDetailsHeader />
+      <ProjectDetailsHeader title={projectsData[pid]?.title} />
       <ProjectDetailsIntroduction />
       <ProjectDetailsImages />
-      <ProjectDetailsDescription />
+      <ProjectDetailsDescription
+        description={projectsData[pid]?.description}
+      />
       <ProjectDetailsVideo
         videoBackground="/img/portfolio/project1/bg.jpg"
         videoType="vimeo"
