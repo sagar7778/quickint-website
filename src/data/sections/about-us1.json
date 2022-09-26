@@ -9,19 +9,19 @@
  "features": [
     {
       "id": 1,
-      "icon": "gleam",
+      "icon": "users",
       "name": { "first": "Client centric", "second": "services" },
       "wowDelay": ".3s"
     },
     {
       "id": 2,
-      "icon": "paint-bucket",
+      "icon": "search",
       "name": { "first": "Transparency and", "second": "Flexibility" },
       "w owDelay": ".5s"
     },
     {
       "id": 3,
-      "icon": "medal",
+      "icon": "like2",
       "name": { "first": "We value", "second": "Relationships" },
       "wowDelay": ".8s"
     }

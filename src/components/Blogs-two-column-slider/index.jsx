@@ -56,7 +56,7 @@ const BlogsTwoColumnSlider = () => {
                   <div className="bimg">
                     <div
                       className="img bg-img"
-                      style={{ backgroundImage: "url(/img/blog/agri.png)" }}
+                      style={{ backgroundImage: "url(/img/blog/Agrifinal.jpg)" }}
                     ></div>
                   </div>
                   <div className="cont valign">

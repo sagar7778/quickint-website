@@ -28,7 +28,8 @@ const Services1 = () => {
             </h4>
             <Link href="/about/about-dark">
               <a className="btn-curve btn-bord btn-lit mt-40">
-                <span>See All Services</span>
+                <span></span>
+                <a onClick={() => router.push("/")}  style={{marginLeft: 5}}>see all services</a>
               </a>
             </Link>
           </div>
@@ -46,7 +47,7 @@ const Services1 = () => {
             className="col-lg-3 col-md-6 item-box wow fadeInLeft"
             data-wow-delay=".7s"
           >
-            <span className="icon pe-7s-phone"></span>
+            <span className="icon pe-7s-loop"></span>
             <h6>
               DevOps auutomation
             </h6>
@@ -57,7 +58,7 @@ const Services1 = () => {
             className="col-lg-3 col-md-6 item-box wow fadeInLeft"
             data-wow-delay=".9s"
           >
-            <span className="icon pe-7s-display1"></span>
+            <span className="icon pe-7s-like2"></span>
             <h6>
             Manual testing and quality assurance (QA) <br />
             </h6>

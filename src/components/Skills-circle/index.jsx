@@ -37,8 +37,8 @@ const SkillsCircle = ({ subBG, theme }) => {
                       />
                     </div>
                     <div className="cont">
-                      <span>Project</span>
-                      <h6>Consulting</h6>
+                      <span>Devlopment</span>
+                      <h6>Web and mobile</h6>
                     </div>
                   </div>
                 </div>
@@ -53,8 +53,8 @@ const SkillsCircle = ({ subBG, theme }) => {
                       />
                     </div>
                     <div className="cont">
-                      <span>App</span>
-                      <h6>Development</h6>
+                      <span>project</span>
+                      <h6>Consulting</h6>
                     </div>
                   </div>
                 </div>

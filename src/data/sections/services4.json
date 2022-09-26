@@ -3,19 +3,19 @@
     {
       "id": 1,
       "title": "Web and mobile app devlopment",
-      "icon": "pe-7s-gleam",
+      "icon": "pe-7s-phone",
       "content": "Digitize your business with our custom, user-friendly and state of the art web and mobile apps."
     },
     {
       "id": 2,
       "title": "DevOps automation",
-      "icon": "pe-7s-phone",
+      "icon": "pe-7s-loop",
       "content": "Let's combine your business with your software and shorten software devlopment life cycle(SDLC)"
     },
     {
       "id": 3,
       "title": "Quality assurance",
-      "icon": "pe-7s-magic-wand",
+      "icon": "pe-7s-like2",
       "content": "Let our quality analysts check your existing or newly developed digital service, least bugs and high quality codes."
     }
   ],
@@ -23,19 +23,19 @@
     {
       "id": 4,
       "title": "Digital innovation",
-      "icon": "pe-7s-gleam",
+      "icon": "pe-7s-light",
       "content": "Innovate your conventional business procedures with us on our digital innovation platform."
     },
     {
       "id": 5,
       "title": "SEO",
-      "icon": "pe-7s-phone",
+      "icon": "pe-7s-search",
       "content": "We can provide you with SEO support which can highlight and differentiate your business in this competitive market."
     },
     {
       "id": 6,
       "title": "Digital marketing & Graphic designing",
-      "icon": "pe-7s-magic-wand",
+      "icon": "pe-7s-graph1",
       "content": "We will help you with digital marketing, UX/UI designing, content development, logo designing and other services."
     }
   ]
