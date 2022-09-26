@@ -37,8 +37,7 @@ const MinimalArea = () => {
 
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
-                  Our creative Ad agency is ranked among the finest in the US.
-                  We cultivate smart ideas for start-ups and seasoned players.
+                We, as an enterprise, established back in 2021, with the motto of providing our digital expertise to people who want to innovate conventional methods of working and have a desire to add some technological features to their business. In addition to that, our key focus is to provide satisfactory work at an affordable rate because we are optimistic about the boom of technology in this era.
                 </p>
               </Split>
               <ul className="feat">
@@ -47,7 +46,7 @@ const MinimalArea = () => {
                     <span>1</span> Our Mission
                   </h6>
                   <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
+                      To provide Digital solutions.
                   </p>
                 </li>
                 <li className="wow fadeInUp" data-wow-delay=".4s">
@@ -55,7 +54,7 @@ const MinimalArea = () => {
                     <span>2</span> Our Goals
                   </h6>
                   <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
+                      analysis and specification of the requirements for developing the software
                   </p>
                 </li>
                 <li className="wow fadeInUp" data-wow-delay=".6s">
@@ -63,7 +62,7 @@ const MinimalArea = () => {
                     <span>3</span> Why Us?
                   </h6>
                   <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
+                    International Reach and Expertise in teachnologial requirements.
                   </p>
                 </li>
               </ul>
