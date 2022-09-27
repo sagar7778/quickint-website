@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400&display=swap");
 
 .blog-crv .item {
   display: flex;
@@ -53,15 +53,24 @@ body .slick-dots li button {
 .team .navs span.next.cursor-pointer {
   margin: 0 7px;
 }
+.justified-gallery .row {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.col-md-6 {
+  width: auto;
+}
 .projdtal .justified-gallery a {
-  width: 100%;
-  margin-bottom: 15px;
+  width: auto;
+  /* margin-bottom: 15px; */
+  margin: 0 12px 12px 15px;
 }
 .projdtal .justified-gallery img {
   min-height: 440px;
   height: 440px;
   object-fit: cover;
-  width: 100%;
+  width: auto;
 }
 
 .projdtal .justified-gallery .big-img {
