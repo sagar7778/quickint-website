@@ -33,14 +33,13 @@ const ProjectDetailsDark = () => {
       }
     });
   }, [navbarRef]);
-  console.log(pid, pid);
 
   return (
     <DarkTheme>
       <Navbar nr={navbarRef} lr={logoRef} />
       <ProjectDetailsHeader title={projectsData[pid]?.title} />
       <ProjectDetailsIntroduction />
-      <ProjectDetailsImages />
+      <ProjectDetailsImages images={projectsData[pid]?.images} />
       <ProjectDetailsDescription
         description={projectsData[pid]?.description}
       />
