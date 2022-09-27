@@ -19,7 +19,7 @@ const MinimalArea = () => {
             <div className="img">
               <img
                 className="thumparallax-down"
-                src="/img/min-area.jpg"
+                src="/img/aboutuspage.jpg"
                 alt=""
               />
             </div>
@@ -46,7 +46,7 @@ const MinimalArea = () => {
                     <span>1</span> Our Mission
                   </h6>
                   <p>
-                      To provide Digital solutions.
+                      We aim to transform innovative ideas into reality through technical expertise.
                   </p>
                 </li>
                 <li className="wow fadeInUp" data-wow-delay=".4s">
@@ -54,7 +54,7 @@ const MinimalArea = () => {
                     <span>2</span> Our Goals
                   </h6>
                   <p>
-                      analysis and specification of the requirements for developing the software
+                      Develop more and more solutions that improve the standards of human life.
                   </p>
                 </li>
                 <li className="wow fadeInUp" data-wow-delay=".6s">

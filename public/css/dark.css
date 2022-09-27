@@ -2275,7 +2275,9 @@ body {
   color: transparent;
   -webkit-text-stroke: 0.5px #fff;
 }
-.slider .swiper-pagination-fraction.top .swiper-pagination-current:after {
+.slider
+  .swiper-pagination-fraction.top
+  .swiper-pagination-current:after {
   content: "/";
   color: #fff;
   position: relative;
@@ -2628,7 +2630,9 @@ body {
   color: transparent;
   -webkit-text-stroke: 0.5px #fff;
 }
-.slider-bus .swiper-pagination-fraction .swiper-pagination-current:after {
+.slider-bus
+  .swiper-pagination-fraction
+  .swiper-pagination-current:after {
   content: "/";
   color: #fff;
   position: relative;
@@ -3268,7 +3272,6 @@ body {
   display: -ms-flexbox;
   display: flex;
 }
-
 
 .about .ftbox ul li {
   width: 100%;
@@ -5861,6 +5864,10 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .number-sec .container .row {
+    align-items: center;
+    justify-content: center;
+  }
   .sm-mb10 {
     margin-bottom: 10px;
   }
@@ -5936,7 +5943,6 @@ body {
   }
   .navbar .logo {
     width: 200px;
-
   }
   .hamenu .menu-links .main-menu > li {
     font-size: 24px;
@@ -6079,6 +6085,12 @@ body {
 }
 
 @media screen and (max-width: 480px) {
+  body {
+    min-width: 500px;
+  }
+  .navbar > .container {
+    min-width: 500px;
+  }
   .hamenu .cont-info {
     display: none;
   }
@@ -6128,6 +6140,10 @@ body {
   }
   .about .blc-img .skills-circle .item:last-of-type {
     margin-left: 0;
+  }
+  .skills-circle .container .row {
+    align-items: center;
+    justify-content: center;
   }
   .portfolio .gallery .items {
     padding: 0 15px;
