@@ -18,7 +18,7 @@ const NextProject = ({ projectImage, projectTitle }) => {
                 <div className="caption ontop valign">
                   <div className="o-hidden full-width">
                     <h1>
-                      <Link href="/project-details2/project-details2-dark">
+                      <Link passHref={true} href="/project-details2/project-details2-dark">
                         <span className="stroke">{projectTitle}</span>
                       </Link>
                     </h1>

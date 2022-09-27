@@ -1,8 +1,10 @@
 import React, { Component } from "react";
-import AboutWidget from "./FooterWidget/AboutWidget";
-import SolutionWidget from "./FooterWidget/SolutionWidget";
-import TeamWidget from "./FooterWidget/TeamWidget";
+// import AboutWidget from "./FooterWidget/AboutWidget";
+// import SolutionWidget from "./FooterWidget/SolutionWidget";
+// import TeamWidget from "./FooterWidget/TeamWidget";
 import Reveal from "react-reveal/Reveal";
+import Image from "next/image";
+import Link from "next/link";
 class FooterTwo extends Component {
   render() {
     var { fClass } = this.props;
@@ -20,9 +22,14 @@ class FooterTwo extends Component {
                         className="f_widget company_widget wow fadeInLeft"
                         data-wow-delay="0.2s"
                       >
-                        <a href="/Home" className="f-logo">
-                          <img src={require("../../img/logo.png")} alt="" />
-                        </a>
+                        <Link passHref={true} href="/Home" className="f-logo">
+                          <Image
+                            src={"/img/logo.png"}
+                            alt=""
+                            height={"100%"}
+                            width={"100%"}
+                          />
+                        </Link>
                         <div className="widget-wrap">
                           <p className="f_400 f_p f_size_15 mb-0 l_height34">
                             <span>Email:</span>{" "}
@@ -60,12 +67,12 @@ class FooterTwo extends Component {
                   </Reveal>
                 );
               })}
-              <AboutWidget ftitle="About Us" FooterData={FooterData} />
-              <SolutionWidget
+              {/* <AboutWidget ftitle="About Us" FooterData={FooterData} /> */}
+              {/* <SolutionWidget
                 ftitle="Workflow Solutions"
                 FooterData={FooterData}
               />
-              <TeamWidget ftitle="Team Solutions" FooterData={FooterData} />
+              <TeamWidget ftitle="Team Solutions" FooterData={FooterData} /> */}
             </div>
           </div>
         </div>
@@ -85,9 +92,11 @@ class FooterTwo extends Component {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <img
+                        <Image
                           src={require(`../../img/social/${item.icon}`)}
                           alt=""
+                          height={"100%"}
+                          width={"100%"}
                         />
                       </a>
                     );

@@ -29,7 +29,7 @@ const Services1 = () => {
             <h4 className="custom-font">
               Best Of <br /> Our Services
             </h4>
-            <Link href="/about/about-dark">
+            <Link href="/about/#services">
               <a className="btn-curve btn-bord btn-lit mt-40">
                 <span></span>
                 <a onClick={() => router.push("/")}  style={{marginLeft: 5}}>see all services</a>

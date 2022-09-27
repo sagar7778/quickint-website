@@ -1,11 +1,11 @@
-import MittiImg1 from "./images/mitti-dashboard.png";
-import MittiImg2 from "./images/mitti-plan.png";
-import Exactt1 from "../../assets/imgs/exactt.png";
-import Greendoor1 from "../../assets/imgs/greendoor-dashboard.png";
-import Greendoor2 from "../../assets/imgs/greendoor.856a0e9a.jpg";
-import Techfenix1 from "../../assets/imgs/Techfenix1.5430cd0f.png";
-import Techfenix2 from "../../assets/imgs/Techfenix2.563169cc.png";
-import Orijin1 from "../../assets/imgs/orijin.3e6e5e8b.jpg";
+// import MittiImg1 from "./images/mitti-dashboard.png";
+// import MittiImg2 from "./images/mitti-plan.png";
+// import Exactt1 from "../../assets/imgs/exactt.png";
+// import Greendoor1 from "../../assets/imgs/greendoor-dashboard.png";
+// import Greendoor2 from "../../assets/imgs/greendoor.856a0e9a.jpg";
+// import Techfenix1 from "../../assets/imgs/Techfenix1.5430cd0f.png";
+// import Techfenix2 from "../../assets/imgs/Techfenix2.563169cc.png";
+// import Orijin1 from "../../assets/imgs/orijin.3e6e5e8b.jpg";
 
 const projectsData = [
   {
@@ -16,11 +16,11 @@ const projectsData = [
     images: [
       {
         id: 1.1,
-        img: MittiImg1,
+        img: "/img/portfolio/images/mitti-dashboard.png",
       },
       {
         id: 1.2,
-        img: MittiImg2,
+        img: "/img/portfolio/images/mitti-plan.png",
       },
     ],
   },
@@ -32,7 +32,7 @@ const projectsData = [
     images: [
       {
         id: 2.1,
-        img: Exactt1,
+        img: "/img/portfolio/images/exactt.png",
       },
     ],
   },
@@ -44,11 +44,11 @@ const projectsData = [
     images: [
       {
         id: 3.1,
-        img: Greendoor1,
+        img: "/img/portfolio/images/greendoor-dashboard.png",
       },
       {
         id: 3.1,
-        img: Greendoor2,
+        img: "/img/portfolio/images/greendoor.856a0e9a.jpg",
       },
     ],
   },
@@ -61,11 +61,11 @@ const projectsData = [
     images: [
       {
         id: 4.1,
-        img: Techfenix1,
+        img: "/img/portfolio/images/Techfenix1.5430cd0f.png",
       },
       {
         id: 4.1,
-        img: Techfenix2,
+        img: "/img/portfolio/images/Techfenix2.563169cc.png",
       },
     ],
   },
@@ -78,7 +78,7 @@ const projectsData = [
     images: [
       {
         id: 5.1,
-        img: Orijin1,
+        img: "/img/portfolio/images/orijin.3e6e5e8b.jpg",
       },
     ],
   },

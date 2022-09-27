@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Reveal from "react-reveal/Reveal";
+import Image from "next/image";
+import NextLink from "next/link";
 class Footer extends Component {
   render() {
     let FooterData = this.props.FooterData;
@@ -92,17 +94,19 @@ class Footer extends Component {
                             
                           {widget.menuItems.map((item) => {
                             return (
-                              <a
+                              <NextLink
                                 href={item.url}
                                 key={item.id}
                                 target="_blank"
                                 rel="noopener noreferrer"
                               >
-                                <img
-                                  src={require(`../../img/social/${item.icon_img}`)}
+                                <Image
+                                  src={`/img/social/${item.icon_img}`}
                                   alt=""
+                                  height={"100%"}
+                                  width={"100%"}
                                 />
-                              </a>
+                              </NextLink>
                             );
                           })}
                         </div>
@@ -126,7 +130,7 @@ class Footer extends Component {
               </div>
               <div className="col-lg-6 col-sm-5 text-right">
                 <p>
-                  <i className="icon_heart"></i> <a href="/#">India</a>
+                  <i className="icon_heart"></i> <NextLink href="/#">India</NextLink>
                 </p>
               </div>
             </div>

@@ -45,9 +45,10 @@ class Portfoliogrid extends Component {
       <section className="portfolio_area sec_pad bg_color">
         <div className="container">
           <div className="row portfolio_gallery mb_30" id="work-portfolio">
-            {portfolio_list.map((item) => {
+            {portfolio_list.map((item, idx) => {
               return (
                 <Portfolio2griditem
+                key={idx}
                   colClass={item.colClass}
                   pImg={item.pImg}
                   projectDetails={item.projectDetails}

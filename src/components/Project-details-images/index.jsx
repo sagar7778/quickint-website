@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import React from "react";
 
 const ProjectDetailsImages = ({ images }) => {
@@ -12,8 +13,8 @@ const ProjectDetailsImages = ({ images }) => {
               {images?.map((image) => {
                 const { img, id } = image;
                 return (
-                  <a key={id} href="img/portfolio/project1/1.jpg">
-                    {img && <img alt="" src={img.src} />};
+                  <a key={id} href="/img/portfolio/project1/1.jpg">
+                    {img && <Image alt="" src={img} height={"100%"} width={"100%"} objectFit="contain" />}
                   </a>
                 );
               })}

@@ -3,6 +3,7 @@ import React from "react";
 import Link from "next/link";
 import initIsotope from "../../common/initIsotope";
 import projectsData from "../../data/sections/portfolio1.json";
+import Image from "next/image";
 
 // import Image from "../"
 const WorksThreeColumnWithFilter = ({ filterPosition }) => {
@@ -39,9 +40,9 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
           </div>
 
           <div className="gallery full-width">
-            <div className="col-lg-4 col-md-6 items graphic lg-mr">
+            <div className="col-lg-4 col-md-6 items graphic lg-mr mobile">
               <div
-                className="item-img wow fadeInUp"
+                className="item-img wow fadeInUp "
                 data-wow-delay=".4s"
               >
                 <Link href="/project-details/0">
@@ -61,7 +62,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 items web">
+            <div className="col-lg-4 col-md-6 items software">
               <div
                 className="item-img wow fadeInUp"
                 data-wow-delay=".4s"
@@ -70,7 +71,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
                   <a>
                     <img
                         // src={`../../img/portfolio/${projectsData[1].image}`}
-                        src={`img/portfolio/greendoors.png`}
+                        src={projectsData[1].image}
                       alt="image"
                     />
                   </a>
@@ -84,7 +85,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 items brand lg-mr">
+            <div className="col-lg-4 col-md-6 items brand lg-mr software web">
               <div
                 className="item-img wow fadeInUp"
                 data-wow-delay=".4s"
@@ -106,7 +107,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 items brand">
+            <div className="col-lg-4 col-md-6 items brand web">
               <div
                 className="item-img wow fadeInUp"
                 data-wow-delay=".4s"
@@ -128,7 +129,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 items web">
+            <div className="col-lg-4 col-md-6 items web softeware">
               <div
                 className="item-img wow fadeInUp"
                 data-wow-delay=".4s"
