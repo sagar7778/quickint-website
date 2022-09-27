@@ -8,10 +8,10 @@ const ProjectDetailsVideo = ({videoBackground, videoId, videoType}) => {
       console.clear();
     }, []);
     return (
-      <section>
+     <section>
         <h2 style={{display: 'none'}}> &nbsp; </h2>
         <div className="container-fluid">
-          <div
+          {/* <div
             className="video-wrapper section-padding bg-img parallaxie valign"
             style={{ backgroundImage: `url(${videoBackground})` }}
             data-overlay-dark="4"
@@ -41,7 +41,7 @@ const ProjectDetailsVideo = ({videoBackground, videoId, videoType}) => {
                 </div>
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     );

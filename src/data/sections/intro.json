@@ -6,7 +6,7 @@
       "second": "Mobile app devlopment"
     },
     "content": "Digitize your business idea with our custom, user-friendly and state-of-the-art web and mobile app solutions.",
-    "image": "/img/slid/banner1.png"
+    "image": "/img/slid/banner1.jpg"
   },
   {
     "id": 2,
@@ -15,12 +15,12 @@
       "second": "automations"
     },
     "content": "Let’s combine your business with our software and shorten the software development life cycle (SDLC). Which ultimately helps you to shift your typical traditional business methods into the new digital generation ones.",
-    "image": "/img/slid/banner2.png"
+    "image": "/img/slid/banner2.jpg"
   },
   {
     "id": 3,
     "title": "Original Solutions",
     "content": "If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.",
-    "image": "/img/slid/banner3.png"
+    "image": "/img/slid/banner3.jpg"
   }
 ]

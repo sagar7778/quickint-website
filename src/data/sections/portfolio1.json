@@ -1,44 +1,39 @@
+
+
 [
   {
     "id": 1,
-    "image": "/img/portfolio/mas/01.jpg",
-    "title": "Creativity Demand",
-    "tags": ["Design", "WordPress"],
-    "filterCategory": ["graphic"]
+    "image": "img/portfolio/greendoorsmain.png",
+    "title": "Mitti",
+    "tags": ["Mobile", "App"],
+    "filterCategory": ["Mobile App"]
   },
   {
     "id": 2,
     "image": "/img/portfolio/mas/02.jpg",
-    "title": "Through The Breaking",
-    "tags": ["Design", "WordPress"],
-    "filterCategory": ["web"]
+    "title": "Exactt Lims",
+    "tags": ["React", "Software"],
+    "filterCategory": ["Software"]
   },
   {
     "id": 3,
     "image": "/img/portfolio/mas/03.jpg",
-    "title": "Create With Creatives",
-    "tags": ["Design", "WordPress"],
-    "filterCategory": ["brand"]
+    "title": "Green Dorrs",
+    "tags": ["React", "Web App"],
+    "filterCategory": ["Web App"]
   },
   {
     "id": 4,
     "image": "/img/portfolio/mas/04.jpg",
     "title": "Energies of Love",
-    "tags": ["Design", "WordPress"],
-    "filterCategory": ["graphic"]
+    "tags": ["React", "Web App"],
+    "filterCategory": ["Web App"]
   },
   {
     "id": 5,
     "image": "/img/portfolio/mas/05.jpg",
     "title": "See It Yourself",
-    "tags": ["Design", "WordPress"],
-    "filterCategory": ["web"]
-  },
-  {
-    "id": 6,
-    "image": "/img/portfolio/mas/06.jpg",
-    "title": "Blast From The Past",
-    "tags": ["Design", "WordPress"],
-    "filterCategory": ["brand"]
+    "tags": ["React", "Web App"],
+    "filterCategory": ["Web App"]
   }
 ]

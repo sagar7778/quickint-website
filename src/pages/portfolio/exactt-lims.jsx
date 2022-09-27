@@ -8,6 +8,9 @@ import ProjectDetailsDescription from "../../components/Project-details-descript
 import ProjectDetailsVideo from "../../components/Project-details-video";
 import NextProject from "../../components/Next-project";
 import SmallFooter from "../../components/Small-footer";
+
+
+
 const ProjectDetailsDark = () => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
@@ -41,7 +44,7 @@ const ProjectDetailsDark = () => {
       />
       <NextProject
         projectImage="/img/portfolio/project2/bg.jpg"
-        projectTitle="Inspiring new space."
+        projectTitle="Inspiring new spacesfsffsfsffsf."
       />
       <SmallFooter />
     </DarkTheme>

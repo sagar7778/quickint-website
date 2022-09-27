@@ -42,7 +42,7 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="social-icon">
-                <h6 className="custom-font stit simple-btn">SOCIALS</h6>
+                <h6 className="custom-font stit simple-btn">Connect</h6>
                 <div className="social">
                   <a href="https://www.upwork.com/o/companies/~01ac40e312f2bbadc2/" target="_blank" rel="noreferrer" className="icon">
                     <i className="fab fa-linkedin"></i>

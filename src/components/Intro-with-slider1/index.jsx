@@ -135,9 +135,9 @@ const IntroWithSlider1 = ({ sliderRef }) => {
 
         <div className="social-icon">
           <a href="#0">
-            <i className="fab fa-facebook-f"></i>
+            <i className="fab fa-linkedin"></i>
           </a>
-          <a href="#0">
+          {/* add socials neel <a href="#0">
             <i className="fab fa-twitter"></i>
           </a>
           <a href="#0">
@@ -145,7 +145,7 @@ const IntroWithSlider1 = ({ sliderRef }) => {
           </a>
           <a href="#0">
             <i className="fab fa-pinterest-p"></i>
-          </a>
+          </a> */}
         </div>
       </div>
     </header>
