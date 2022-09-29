@@ -2,8 +2,10 @@
 import React from "react";
 import Link from "next/link";
 import initIsotope from "../../common/initIsotope";
-import projectsData from "../../pages/project-details/projectsData";
+import projectsData from "../../data/sections/portfolio1.json";
+import Image from "next/image";
 
+// import Image from "../"
 const WorksThreeColumnWithFilter = ({ filterPosition }) => {
   const [pageLoaded, setPageLoaded] = React.useState(false);
   React.useEffect(() => {
@@ -31,22 +33,22 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <span data-filter="*" className="active">
                 All
               </span>
-              <span data-filter=".brand">Branding</span>
-              <span data-filter=".web">Mobile App</span>
-              <span data-filter=".graphic">Creative</span>
+              <span data-filter=".web">Web App</span>
+              <span data-filter=".mobile">Mobile App</span>
+              <span data-filter=".software">Software</span>
             </div>
           </div>
 
           <div className="gallery full-width">
-            <div className="col-lg-4 col-md-6 items graphic lg-mr">
+            <div className="col-lg-4 col-md-6 items graphic lg-mr mobile">
               <div
-                className="item-img wow fadeInUp"
+                className="item-img wow fadeInUp "
                 data-wow-delay=".4s"
               >
                 <Link href="/project-details/0">
                   <a>
                     <img
-                      src="/img/portfolio/mas/01.jpg"
+                      src={projectsData[0].image}
                       alt="image"
                     />
                   </a>
@@ -55,12 +57,12 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="cont">
                 <h6>{projectsData[0].title}</h6>
                 <span>
-                  <a href="#0">Design</a>, <a href="#0">WordPress</a>
+                  <p >React Native app</p>
                 </span>
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 items web">
+            <div className="col-lg-4 col-md-6 items software">
               <div
                 className="item-img wow fadeInUp"
                 data-wow-delay=".4s"
@@ -68,7 +70,8 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
                 <Link href="/project-details/1">
                   <a>
                     <img
-                      src="/img/portfolio/mas/02.jpg"
+                        // src={`../../img/portfolio/${projectsData[1].image}`}
+                        src={projectsData[1].image}
                       alt="image"
                     />
                   </a>
@@ -77,12 +80,12 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="cont">
                 <h6>{projectsData[1].title}</h6>
                 <span>
-                  <a href="#0">Design</a>, <a href="#0">WordPress</a>
+                  <p>react software</p>
                 </span>
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 items brand lg-mr">
+            <div className="col-lg-4 col-md-6 items brand lg-mr software web">
               <div
                 className="item-img wow fadeInUp"
                 data-wow-delay=".4s"
@@ -90,7 +93,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
                 <Link href="/project-details/2">
                   <a>
                     <img
-                      src="/img/portfolio/mas/03.jpg"
+                      src={projectsData[2].image}
                       alt="image"
                     />
                   </a>
@@ -99,12 +102,12 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="cont">
                 <h6>{projectsData[2].title}</h6>
                 <span>
-                  <a href="#0">Design</a>, <a href="#0">WordPress</a>
+                 <p>react web app</p>
                 </span>
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 items brand">
+            <div className="col-lg-4 col-md-6 items brand web">
               <div
                 className="item-img wow fadeInUp"
                 data-wow-delay=".4s"
@@ -112,7 +115,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
                 <Link href="/project-details/3">
                   <a>
                     <img
-                      src="/img/portfolio/mas/06.jpg"
+                      src={projectsData[3].image}
                       alt="image"
                     />
                   </a>
@@ -121,12 +124,12 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="cont">
                 <h6>{projectsData[3].title}</h6>
                 <span>
-                  <a href="#0">Design</a>, <a href="#0">WordPress</a>
+                 <p>react web app</p>
                 </span>
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 items web">
+            <div className="col-lg-4 col-md-6 items web softeware">
               <div
                 className="item-img wow fadeInUp"
                 data-wow-delay=".4s"
@@ -134,7 +137,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
                 <Link href="/project-details/4">
                   <a>
                     <img
-                      src="/img/portfolio/mas/05.jpg"
+                      src={projectsData[4].image}
                       alt="image"
                     />
                   </a>
@@ -143,7 +146,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="cont">
                 <h6>{projectsData[4].title}</h6>
                 <span>
-                  <a href="#0">Design</a>, <a href="#0">WordPress</a>
+                  <p>React web app</p>
                 </span>
               </div>
             </div>

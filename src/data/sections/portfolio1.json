@@ -1,44 +1,38 @@
 [
   {
     "id": 1,
-    "image": "/img/portfolio/mas/01.jpg",
-    "title": "Creativity Demand",
-    "tags": ["Design", "WordPress"],
-    "filterCategory": ["graphic"]
+    "image": "/img/portfolio/images/mitti-dashboard.png",
+    "title": "Mitti",
+    "tags": ["Mobile", "App"],
+    "filterCategory": ["mobile"]
   },
   {
     "id": 2,
-    "image": "/img/portfolio/mas/02.jpg",
-    "title": "Through The Breaking",
-    "tags": ["Design", "WordPress"],
-    "filterCategory": ["web"]
+    "image": "/img/portfolio/images/exactt.png",
+    "title": "Exactt Lims",
+    "tags": ["React", "Software"],
+    "filterCategory": ["software"]
   },
   {
     "id": 3,
-    "image": "/img/portfolio/mas/03.jpg",
-    "title": "Create With Creatives",
-    "tags": ["Design", "WordPress"],
-    "filterCategory": ["brand"]
+    "image": "/img/portfolio/images/greendoor-dashboard.png",
+    "title": "Green Dorrs",
+    "tags": ["React", "Web App"],
+    "filterCategory": ["web"]
   },
-  {
-    "id": 4,
-    "image": "/img/portfolio/mas/04.jpg",
-    "title": "Energies of Love",
-    "tags": ["Design", "WordPress"],
-    "filterCategory": ["graphic"]
-  },
+
   {
     "id": 5,
-    "image": "/img/portfolio/mas/05.jpg",
-    "title": "See It Yourself",
-    "tags": ["Design", "WordPress"],
+    "image": "/img/portfolio/images/Techfenix1.5430cd0f.png",
+    "title": "Techfenix",
+    "tags": ["React", "Web App"],
     "filterCategory": ["web"]
   },
   {
-    "id": 6,
-    "image": "/img/portfolio/mas/06.jpg",
-    "title": "Blast From The Past",
-    "tags": ["Design", "WordPress"],
-    "filterCategory": ["brand"]
+    "id": 4,
+    "image": "/img/portfolio/images/orijin.3e6e5e8b.jpg",
+    "title": "Origin",
+    "tags": ["React", "Web App"],
+    "filterCategory": ["web"]
   }
 ]

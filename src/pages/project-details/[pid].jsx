@@ -9,7 +9,7 @@ import ProjectDetailsVideo from "../../components/Project-details-video";
 import NextProject from "../../components/Next-project";
 import SmallFooter from "../../components/Small-footer";
 import { useRouter } from "next/router";
-import projectsData from "./projectsData";
+import projectsData from "../../data/projectsData";
 
 const ProjectDetailsDark = () => {
   const navbarRef = React.useRef(null);
@@ -48,10 +48,10 @@ const ProjectDetailsDark = () => {
         videoType="vimeo"
         videoId={127203262}
       />
-      <NextProject
+      {/* <NextProject
         projectImage="/img/portfolio/project2/bg.jpg"
-        projectTitle="Inspiring new space."
-      />
+        projectTitle="Next Project."
+      /> */}
       <SmallFooter />
     </DarkTheme>
   );

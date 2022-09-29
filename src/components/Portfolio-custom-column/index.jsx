@@ -54,9 +54,9 @@ const PortfolioCustomColumn = ({
                 <span data-filter="*" className="active">
                   All
                 </span>
-                <span data-filter=".brand">Branding</span>
-                <span data-filter=".web">Mobile App</span>
-                <span data-filter=".graphic">Creative</span>
+                <span data-filter=".web">Web App</span>
+                <span data-filter=".mobile">Mobile App</span>
+                <span data-filter=".software">Software</span>
               </div>
             </div>
           )}

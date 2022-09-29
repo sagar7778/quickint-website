@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Portfoliosingle = (props) => {
@@ -65,8 +66,8 @@ const Portfoliosingle = (props) => {
           </div>
           <div className="col-lg-7">
             <div className="portfolio_details_gallery">
-              {projectDetails.projectImgs.map((item) => {
-                return <img className="img-fluid mb_20" src={item} alt="" />;
+              {projectDetails.projectImgs.map((item, key) => {
+                return <Image className="img-fluid mb_20" height={"100%"} width={"100%"} src={item} key={key} alt="" />;
               })}
             </div>
           </div>

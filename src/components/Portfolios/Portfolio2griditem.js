@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -14,7 +15,7 @@ const Portfolio2griditem = (props) => {
         className="portfolio-title"
       >
         <div className="portfolio_img">
-          <img src={require("../../img/portfolio/" + pImg)} alt="" />
+          <Image src={"/img/portfolio/" + pImg} alt="" height={"100%"} width={"100%"} />
           <div className="hover_content">
             <div className="portfolio-description leaf">
               <h3 className="f_500 f_size_20 f_p">{projectDetails.ptitle}</h3>

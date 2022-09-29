@@ -1,8 +1,10 @@
 import React from "react";
 import Split from "../Split";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 const Services1 = () => {
+  const router = useRouter()
   return (
     <section className="services">
       <div className="container">
@@ -22,16 +24,17 @@ const Services1 = () => {
             className="col-lg-3 col-md-6 item-box bg-img wow fadeInLeft"
             data-wow-delay=".3s"
             style={{
-              backgroundImage: "url(/img/1.jpg)",
+              backgroundImage: "url(/img/newservices.jpg)",
               width: "-webkit-fill-available",
             }}
           >
             <h4 className="custom-font">
               Best Of <br /> Our Services
             </h4>
-            <Link href="/about/about-dark">
+            <Link href="/about/#services">
               <a className="btn-curve btn-bord btn-lit mt-40">
-                <span>See All Services</span>
+                <span></span>
+                <a onClick={() => router.push("/")}  style={{marginLeft: 5}}>see all services</a>
               </a>
             </Link>
           </div>
@@ -67,7 +70,7 @@ const Services1 = () => {
             className="col-lg-3 col-md-6 item-box wow fadeInLeft"
             data-wow-delay=".9s"
           >
-            <span className="icon pe-7s-display1"></span>
+            <span className="icon pe-7s-like2"></span>
             <h6>
               Manual testing and quality assurance (QA) <br />
             </h6>
