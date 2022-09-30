@@ -35,13 +35,14 @@ const BlogStanderd = () => {
                         </Link>
                       </h4>
                       <p>
-                        My job is simple and sophisticated, so it is possible to
-                        describe and simple, and flowery language. I love the
-                        feel and sophistication of its superiority. I like
-                        people with a keen mind and at the same time easy to
-                        talk to. These qualities can be combined perfectly
-                        natural. However, things like people look miserable, if
-                        these properties are connected.
+                        My job is simple and sophisticated, so it is
+                        possible to describe and simple, and flowery
+                        language. I love the feel and sophistication
+                        of its superiority. I like people with a keen
+                        mind and at the same time easy to talk to.
+                        These qualities can be combined perfectly
+                        natural. However, things like people look
+                        miserable, if these properties are connected.
                       </p>
                       <Link href="/blog-details/blog-details-dark">
                         <a className="simple-btn mt-30">Read More</a>
@@ -76,13 +77,14 @@ const BlogStanderd = () => {
                         </Link>
                       </h4>
                       <p>
-                        My job is simple and sophisticated, so it is possible to
-                        describe and simple, and flowery language. I love the
-                        feel and sophistication of its superiority. I like
-                        people with a keen mind and at the same time easy to
-                        talk to. These qualities can be combined perfectly
-                        natural. However, things like people look miserable, if
-                        these properties are connected.
+                        My job is simple and sophisticated, so it is
+                        possible to describe and simple, and flowery
+                        language. I love the feel and sophistication
+                        of its superiority. I like people with a keen
+                        mind and at the same time easy to talk to.
+                        These qualities can be combined perfectly
+                        natural. However, things like people look
+                        miserable, if these properties are connected.
                       </p>
                       <Link href="/blog-details/blog-details-dark">
                         <a className="simple-btn mt-30">Read More</a>
@@ -117,13 +119,14 @@ const BlogStanderd = () => {
                         </Link>
                       </h4>
                       <p>
-                        My job is simple and sophisticated, so it is possible to
-                        describe and simple, and flowery language. I love the
-                        feel and sophistication of its superiority. I like
-                        people with a keen mind and at the same time easy to
-                        talk to. These qualities can be combined perfectly
-                        natural. However, things like people look miserable, if
-                        these properties are connected.
+                        My job is simple and sophisticated, so it is
+                        possible to describe and simple, and flowery
+                        language. I love the feel and sophistication
+                        of its superiority. I like people with a keen
+                        mind and at the same time easy to talk to.
+                        These qualities can be combined perfectly
+                        natural. However, things like people look
+                        miserable, if these properties are connected.
                       </p>
                       <Link href="/blog-details/blog-details-dark">
                         <a className="simple-btn mt-30">Read More</a>
@@ -158,13 +161,14 @@ const BlogStanderd = () => {
                         </Link>
                       </h4>
                       <p>
-                        My job is simple and sophisticated, so it is possible to
-                        describe and simple, and flowery language. I love the
-                        feel and sophistication of its superiority. I like
-                        people with a keen mind and at the same time easy to
-                        talk to. These qualities can be combined perfectly
-                        natural. However, things like people look miserable, if
-                        these properties are connected.
+                        My job is simple and sophisticated, so it is
+                        possible to describe and simple, and flowery
+                        language. I love the feel and sophistication
+                        of its superiority. I like people with a keen
+                        mind and at the same time easy to talk to.
+                        These qualities can be combined perfectly
+                        natural. However, things like people look
+                        miserable, if these properties are connected.
                       </p>
                       <Link href="/blog-details/blog-details-dark">
                         <a className="simple-btn mt-30">Read More</a>

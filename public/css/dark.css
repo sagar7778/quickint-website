@@ -132,6 +132,10 @@ a,
 span {
   display: inline-block;
 }
+
+.fab {
+  font-size: 20px;
+}
 a:hover,
 span:hover {
   text-decoration: none;

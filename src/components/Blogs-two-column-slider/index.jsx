@@ -10,7 +10,7 @@ const BlogsTwoColumnSlider = () => {
       <div className="container">
         <div className="sec-head custom-font text-center">
           <h6 className="wow fadeIn" data-wow-delay=".5s">
-            Latest 
+            Latest
           </h6>
           <h3 className="wow" data-splitting>
             BLOGS
@@ -56,7 +56,10 @@ const BlogsTwoColumnSlider = () => {
                   <div className="bimg">
                     <div
                       className="img bg-img"
-                      style={{ backgroundImage: "url(/img/blog/Agrifinal.jpg)" }}
+                      style={{
+                        backgroundImage:
+                          "url(/img/blog/Agrifinal.jpg)",
+                      }}
                     ></div>
                   </div>
                   <div className="cont valign">
@@ -74,8 +77,9 @@ const BlogsTwoColumnSlider = () => {
                         </Link>
                       </div>
                       <h6 className="custom-font">
-                        <Link href="/blog-details/blog-details-dark">
-                        Technology innovation will bring in a new age in agriculture,
+                        <Link href="/blog-details/0">
+                          Technology innovation will bring in a new
+                          age in agriculture,
                         </Link>
                       </h6>
                       <div className="btn-more custom-font">
@@ -92,16 +96,21 @@ const BlogsTwoColumnSlider = () => {
                   <div className="bimg">
                     <div
                       className="img bg-img"
-                      style={{ backgroundImage: "url(/img/blog/blog2.png)" }}
+                      style={{
+                        backgroundImage: "url(/img/blog/blog2.png)",
+                      }}
                     ></div>
                   </div>
                   <div className="cont valign">
                     <div className="full-width">
                       <div className="info custom-font">
-                        <a href="/blog-details/blog2" className="author">
+                        <Link
+                          href="/blog-details/blog-details-dark"
+                          className="author"
+                        >
                           <span>by value chain</span>
-                        </a>
-                        <Link href="/blog-details/blog2">
+                        </Link>
+                        <Link href="/blog-details/blog-details-dark">
                           <a className="date">
                             <span>
                               <i>08</i> Aug
@@ -110,12 +119,14 @@ const BlogsTwoColumnSlider = () => {
                         </Link>
                       </div>
                       <h6 className="custom-font">
-                        <Link href="/blog-details/blog2">
-                           For the industry to progress and for UK manufacturers to compete with foreign manufacturers in Germany
+                        <Link href="/blog-details/1">
+                          For the industry to progress and for UK
+                          manufacturers to compete with foreign
+                          manufacturers in Germany
                         </Link>
                       </h6>
                       <div className="btn-more custom-font">
-                        <Link href="/blog-details/blog2">
+                        <Link href="/blog-details/blog-details-dark">
                           <a className="simple-btn">Read More</a>
                         </Link>
                       </div>
@@ -123,7 +134,6 @@ const BlogsTwoColumnSlider = () => {
                   </div>
                 </div>
               </div>
-            
             </Slider>
           </div>
         </div>

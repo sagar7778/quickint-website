@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 import { Formik, Form, Field } from "formik";
 
-const BlogDetails = () => {
+const blog1 = () => {
   function validateEmail(value) {
     let error;
     if (!value) {
@@ -279,4 +279,4 @@ const BlogDetails = () => {
   );
 };
 
-export default BlogDetails;
+export default blog1;
