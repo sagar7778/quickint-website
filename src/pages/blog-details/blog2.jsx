@@ -35,30 +35,31 @@ const blog2 = () => {
                           manufacturers to compete with foreign
                           manufacturers in Germany and Japan, it is
                           essential that big data be used in advanced
-                          manufacturing. But it's obvious that there
-                          is a lot of misunderstanding surrounding the
-                          topic, which is why we (Valuechain) joined
-                          up with ADS and a number of other partners
-                          to demystify Big Data and reveal the
-                          potential benefits it can bring to
-                          organisations.
+                          manufacturing. But it&apos;s obvious that
+                          there is a lot of misunderstanding
+                          surrounding the topic, which is why we
+                          (Valuechain) joined up with ADS and a number
+                          of other partners to demystify Big Data and
+                          reveal the potential benefits it can bring
+                          to organisations.
                         </p>
                       </div>
                       <p>
-                        ‘Big Data’ is pointless without the analytics
-                        to process, reduce, fuse and analyse it. It is
-                        key to distil out the ‘actionable information’
-                        from the haystack of data. Manufacturers
-                        collect a lot of data and can use sensors to
-                        collect it in a variety of different areas
-                        within their business. Ranging from simple
-                        indexing and counting devices to process
-                        monitoring, to measuring the performance of
-                        machines or people. It is clear that sensor
-                        measurements and corresponding data generation
-                        is only going to increase exponentially. When
-                        an advanced manufacturer is able to harness
-                        and exploit this data, a huge competitive
+                        &apos;Big Data&apos; is pointless without the
+                        analytics to process, reduce, fuse and analyse
+                        it. It is key to distil out the
+                        &apos;actionable information&apos; from the
+                        haystack of data. Manufacturers collect a lot
+                        of data and can use sensors to collect it in a
+                        variety of different areas within their
+                        business. Ranging from simple indexing and
+                        counting devices to process monitoring, to
+                        measuring the performance of machines or
+                        people. It is clear that sensor measurements
+                        and corresponding data generation is only
+                        going to increase exponentially. When an
+                        advanced manufacturer is able to harness and
+                        exploit this data, a huge competitive
                         advantage can be gained.
                       </p>
 
@@ -148,15 +149,15 @@ const blog2 = () => {
                             chain inefficiencies.
                           </p>
                           <p>
-                            More recently, OEMs haven't only sought
-                            lower cost from emerging supply chains,
-                            but are now seeking new customers from
-                            growing economies in Brazil, Russia, India
-                            and China for instance. However, OEMs must
-                            establish supply chains in these emerging
-                            economies as a part of their offset
-                            obligations, and massive Data is crucial
-                            to their success.
+                            More recently, OEMs haven&apos;t only
+                            sought lower cost from emerging supply
+                            chains, but are now seeking new customers
+                            from growing economies in Brazil, Russia,
+                            India and China for instance. However,
+                            OEMs must establish supply chains in these
+                            emerging economies as a part of their
+                            offset obligations, and massive Data is
+                            crucial to their success.
                           </p>
                           <p>
                             To establish supply chains overseas, OEMs
@@ -170,7 +171,7 @@ const blog2 = () => {
                             supply chain.
                           </p>
                           <p>
-                            Furthermore, it's really complex and
+                            Furthermore, it&apos;s really complex and
                             challenging to map existing supply chains
                             onto an unknown supply chain in an
                             emerging economy where the availability
@@ -190,16 +191,16 @@ const blog2 = () => {
                             current sector, include composites, which
                             is growing rapidly, and additive
                             manufacturing, which remains relatively
-                            nascent. it's thought that by implementing
-                            these technologies, OEMs are ready to gain
-                            a competitive advantage, either in fuel
-                            efficiency, or responsive, aftermarket
-                            service.
+                            nascent. it&apos;s thought that by
+                            implementing these technologies, OEMs are
+                            ready to gain a competitive advantage,
+                            either in fuel efficiency, or responsive,
+                            aftermarket service.
                           </p>
                           <p>
                             However, as OEMs seek to determine these
                             technologies in their supply chains,
-                            they're going to must find innovative
+                            they&apos;re going to must find innovative
                             suppliers. OEM procurement and supplier
                             development teams only know what they
                             know. Big Data can help them to spot what
@@ -220,10 +221,10 @@ const blog2 = () => {
                             However, the present process for OEMs to
                             pick new suppliers is incredibly risky,
                             with minimal performance related
-                            information available. there's currently
-                            no way of know if the potential suppliers
-                            are strategically aligned, and have the
-                            correct technical capability and
+                            information available. there&apos;s
+                            currently no way of know if the potential
+                            suppliers are strategically aligned, and
+                            have the correct technical capability and
                             performance levels. Big data can,
                             therefore, play a vital role to cut back
                             supply chain selection risk.
@@ -235,9 +236,9 @@ const blog2 = () => {
                             The fifth driver, is that the competitive
                             pressures that OEMs are under to cut back
                             supply chain costs, whilst improving
-                            customer service levels. there's only such
-                            a lot that may be achieved through price
-                            negotiation with suppliers, and
+                            customer service levels. there&apos;s only
+                            such a lot that may be achieved through
+                            price negotiation with suppliers, and
                             sustainable cost competitiveness can only
                             be achieved through waste reduction.
                           </p>
@@ -252,7 +253,7 @@ const blog2 = () => {
                             customer demand and unreliable sub-tier
                             deliveries. Big Data can enable multi-tier
                             supply chains to streamline communication
-                            so they'll improve planning, increase
+                            so they&apos;ll improve planning, increase
                             resource utilisation and reduce inventory
                             levels, amongst other things.
                           </p>
@@ -265,12 +266,12 @@ const blog2 = () => {
                             networks have transformed from one-to-many
                             communication to many-to-many. Why can’t
                             this approach be applied to manufacturing
-                            supply chains? it's now much easier to
-                            access data from disparate systems through
-                            application programming interfaces. And
-                            supercomputers can process huge data sets
-                            instantly that only some years ago, would
-                            have taken hours.
+                            supply chains? it&apos;s now much easier
+                            to access data from disparate systems
+                            through application programming
+                            interfaces. And supercomputers can process
+                            huge data sets instantly that only some
+                            years ago, would have taken hours.
                           </p>
                           <p>
                             Big data analytics is rife, everywhere we
@@ -297,22 +298,22 @@ const blog2 = () => {
                         disruption and value. we offer continuous
                         training, customer support and data integrity
                         monitoring to drive data accuracy. Many
-                        companies don't want to vary their ERP system
-                        thanks to the disruption costs and risks, so
-                        we've got also developed several bolt-on
-                        applications to boost data accuracy,
-                        transparency and sharing.
+                        companies don&apos;t want to vary their ERP
+                        system thanks to the disruption costs and
+                        risks, so we&apos;ve got also developed
+                        several bolt-on applications to boost data
+                        accuracy, transparency and sharing.
                       </p>
                       <p>
-                        To address the cultural challenges, it's
+                        To address the cultural challenges, it&apos;s
                         critical to spot win-win opportunities, and
                         answer the question ‘what’s in it for me?’ for
                         each tier of the provision chain. As companies
                         start to interact, and generate tangible
                         benefits from securely sharing data, with
-                        selected supply chain partners, then it'll
-                        encourage them to collaborate more openly with
-                        their partners.
+                        selected supply chain partners, then
+                        it&apos;ll encourage them to collaborate more
+                        openly with their partners.
                       </p>
                       <p>
                         Of our bolt-on applications, there are
