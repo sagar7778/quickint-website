@@ -106,7 +106,7 @@ const ContactWithMap = () => {
                 </h3>
                 <div className="item mb-40">
                   <h5>
-                    <a href="mailto:quickintsolutions@gmail.com"> quickintsolutions@gmail.com</a>
+                    <a href="mailto:info@quickint.in"> info@quickint.in</a>
                   </h5>
                   <a href="tel:(+91) 9825866927">+91 98258 66927</a>
                 </div>

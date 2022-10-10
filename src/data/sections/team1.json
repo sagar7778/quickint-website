@@ -28,5 +28,11 @@
     "image": "/img/team/5.jpg",
     "name": "Ayushya Patel",
     "title": "Jr. Devloper"
+  },
+  {
+    "id": 6,
+    "image": "/img/team/5.jpg",
+    "name": "Ashvini Parmar",
+    "title": "UI/UX designer"
   }
 ]
