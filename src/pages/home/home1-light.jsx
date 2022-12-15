@@ -58,7 +58,7 @@ const Homepage1 = () => {
         <Works1Slider />
         <VideoWithTestimonials />
         <SkillsCircle theme="light" subBG />
-        <Clients1 theme="light" />
+        {/* <Clients1 theme="light" /> */}
         <BlogsTwoColumnSlider />
         <CallToAction theme="light" />
         <Footer />

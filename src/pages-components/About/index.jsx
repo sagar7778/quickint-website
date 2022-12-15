@@ -39,7 +39,7 @@ const AboutDark = () => {
       <SkillsCircle subBG theme="dark" />
       <Team1 />
       <MinimalArea />
-      <Clients1 theme="dark" />
+      {/* <Clients1 theme="dark" /> */}
       <CallToAction subBG />
       <Footer />
     </DarkTheme>
