@@ -1,6 +1,6 @@
 import React from "react";
 import AboutUs1 from "../../components/About-us1";
-import BlogsThreeColumn2 from "../../components/Blogs-three-column2";
+// import BlogsThreeColumn2 from "../../components/Blogs-three-column2";
 import ContactSection from "../../components/Contact-section";
 import Footer from "../../components/Footer";
 import IntroWithSlider1 from "../../components/Intro-with-slider1";
@@ -51,7 +51,7 @@ const Homepage4 = () => {
         <PortfolioCustomColumn column={2} filterPosition="left" />
         <Testimonials1 withBG imgSrc="/img/pattern.png" />
         <TeamWithSkills />
-        <BlogsThreeColumn2 subBG />
+        {/* <BlogsThreeColumn2 subBG /> */}
         <ContactSection />
         <Footer />
       </div>

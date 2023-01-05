@@ -51,7 +51,7 @@ const Homepage4 = () => {
         <PortfolioCustomColumn column={2} filterPosition="left" />
         <Testimonials1 withBG imgSrc="/img/pattern-light.png" />
         <TeamWithSkills />
-        <BlogsThreeColumn2 subBG />
+        {/* <BlogsThreeColumn2 subBG /> */}
         <ContactSection />
         <Footer />
       </div>

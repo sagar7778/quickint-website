@@ -9,30 +9,36 @@
     "id": 2,
     "image": "/img/team/02.jpg",
     "name": "Aman Patel",
-    "title": "BDA"
+    "title": "BDE"
   },
   {
     "id": 3,
     "image": "/img/team/03.jpg",
     "name": "Dhansukh",
-    "title": "React devloper"
+    "title": "React developer"
   },
   {
     "id": 4,
     "image": "/img/team/4.jpg",
     "name": " Priyanka Maneria",
-    "title": "Jr. Devloper"
+    "title": "Jr. Developer"
   },
   {
     "id": 5,
     "image": "/img/team/5.jpg",
     "name": "Ayushya Patel",
-    "title": "Jr. Devloper"
+    "title": "Jr. Developer"
   },
   {
     "id": 6,
     "image": "/img/team/5.jpg",
     "name": "Ashvini Parmar",
     "title": "UI/UX designer"
+  },
+  {
+    "id": 6,
+    "image": "/img/team/5.jpg",
+    "name": "Yash Jani",
+    "title": "Backend Developer"
   }
 ]

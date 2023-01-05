@@ -3,6 +3,7 @@ import introData from "../../data/sections/intro.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
 import SwiperCore, { Navigation, Pagination, Parallax, Autoplay } from "swiper";
+import { SiFiverr, SiLinkedin, SiUpwork } from "react-icons/si";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -134,9 +135,16 @@ const IntroWithSlider1 = ({ sliderRef }) => {
         ></div>
 
         <div className="social-icon">
-          <a href="#0">
-            <i className="fab fa-linkedin"></i>
-          </a>
+        <a href="https://www.linkedin.com/company/quickint-solutions/" target="_blank" rel="noreferrer" className="icon">
+                  <SiLinkedin />
+                  </a>
+                  <a href="https://www.upwork.com/o/companies/~01ac40e312f2bbadc2" target="_blank" rel="noreferrer" className="icon">
+                    <SiUpwork />
+                  </a>
+                  <a href="https://www.fiverr.com/" target="_blank" rel="noreferrer" className="icon">
+                    <SiFiverr />
+                  </a>
+          
           {/* add socials neel <a href="#0">
             <i className="fab fa-twitter"></i>
           </a>

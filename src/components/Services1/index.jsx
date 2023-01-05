@@ -57,7 +57,7 @@ const Services1 = () => {
             data-wow-delay=".7s"
           >
             <span className="icon pe-7s-phone"></span>
-            <h6>DevOps auutomation</h6>
+            <h6>DevOps automation</h6>
             <p>
               <br></br>Let’s combine your business with our software
               and shorten the software development life cycle (SDLC).

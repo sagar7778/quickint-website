@@ -3,6 +3,7 @@ import React from "react";
 import { Formik, Form, Field } from "formik";
 import appData from "../../data/app.json";
 import { useRouter } from "next/router";
+import { SiFiverr, SiLinkedin, SiUpwork } from "react-icons/si";
 
 const Footer = () => {
   const router = useRouter()
@@ -44,14 +45,14 @@ const Footer = () => {
               <div className="social-icon">
                 <h6 className="custom-font stit simple-btn">Connect</h6>
                 <div className="social">
-                  <a href="https://www.upwork.com/o/companies/~01ac40e312f2bbadc2/" target="_blank" rel="noreferrer" className="icon">
-                    <i className="fab fa-linkedin"></i>
-                  </a>
                   <a href="https://www.linkedin.com/company/quickint-solutions/" target="_blank" rel="noreferrer" className="icon">
-                    <i className="fab fa-twitter"></i>
+                  <SiLinkedin />
+                  </a>
+                  <a href="https://www.upwork.com/o/companies/~01ac40e312f2bbadc2" target="_blank" rel="noreferrer" className="icon">
+                    <SiUpwork />
                   </a>
                   <a href="https://www.fiverr.com/" target="_blank" rel="noreferrer" className="icon">
-                    <i className="fab fa-pinterest"></i>
+                    <SiFiverr />
                   </a>
                   </div>
               </div>

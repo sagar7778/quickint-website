@@ -1,6 +1,8 @@
 import React from "react";
 import { Formik, Form, Field } from "formik";
 import { useRouter } from "next/router";
+import { SiFiverr, SiLinkedin, SiUpwork } from "react-icons/si";
+
 
 const ContactWithMap = () => {
   const router = useRouter()
@@ -121,7 +123,15 @@ const ContactWithMap = () => {
                   </h6>
                 </div>
                 <div className="social mt-50">
-                  <a href="#0" className="icon">
+                <a href="https://www.linkedin.com/company/quickint-solutions/" target="_blank" rel="noreferrer" className="icon"> 
+                <SiLinkedin /> </a>
+                 <a href="https://www.upwork.com/o/companies/~01ac40e312f2bbadc2" target="_blank" rel="noreferrer" className="icon"> 
+                 <SiUpwork /> 
+                </a> 
+                <a href="https://www.fiverr.com/" target="_blank" rel="noreferrer" className="icon"> 
+                <SiFiverr /> 
+                </a>
+                  {/* <a href="#0" className="icon">
                     <i className="fab fa-facebook-f"></i>
                   </a>
                   <a href="#0" className="icon">
@@ -132,7 +142,7 @@ const ContactWithMap = () => {
                   </a>
                   <a href="#0" className="icon">
                     <i className="fab fa-behance"></i>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -141,10 +151,10 @@ const ContactWithMap = () => {
       </section>
       <div className="map" id="ieatmaps">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19868.687203718404!2d-0.14297520856388865!3d51.502466162777694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2seg!4v1644772966009!5m2!1sen!2seg"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.092651333545!2d72.6224723148699!3d22.983620223550485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e87091e60d2cf%3A0xb7f883dd2c61cb5a!2sQuickint%20Solutions!5e0!3m2!1sen!2sin!4v1672826104529!5m2!1sen!2sin"
           style={{ border: 0 }}
           allowFullScreen=""
-          loading="lazy"
+          loading="lazy"s
         ></iframe>
       </div>
 

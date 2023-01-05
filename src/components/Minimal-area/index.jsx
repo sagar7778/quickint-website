@@ -3,7 +3,6 @@ import React from "react";
 import featuresEffect from "../../common/featuresEffect";
 import { thumparallaxDown } from "../../common/thumparallax";
 import Split from "../Split";
-
 const MinimalArea = () => {
   React.useEffect(() => {
     featuresEffect();
@@ -16,10 +15,10 @@ const MinimalArea = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-            <div className="img">
+            <div className="imgs">
               <img
-                className="thumparallax-down"
-                src="/img/aboutuspage.jpg"
+                className="thumprallax-down"
+                src="https://media.istockphoto.com/id/625736338/photo/stack-of-hands-showing-unity.jpg?s=612x612&w=0&k=20&c=20mAQjGRQ5XVKqHe2qFguqGZ4dwto6lxxinciCfnVI0= "
                 alt=""
               />
             </div>
