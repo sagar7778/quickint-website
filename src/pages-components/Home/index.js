@@ -55,7 +55,7 @@ const HomePage = () => {
         <VideoWithTestimonials />
         <SkillsCircle theme="dark" />
         {/* <Clients1 theme="dark" /> */}
-        <BlogsTwoColumnSlider />
+        
         <CallToAction subBG />
         <Footer />
       </div>

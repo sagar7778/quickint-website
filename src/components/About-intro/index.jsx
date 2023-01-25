@@ -15,7 +15,7 @@ const AboutIntro = () => {
             <div className="text">
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
-                We, as an enterprise, established back in 2021, with the motto of providing our digital expertise to people who want to innovate conventional methods of working and have a desire to add some technical features to their business. In addition to that, our key focus is to provide satisfactory work at an affordable rate because we are optimistic about the boom of technology in this era. Thus, we count on it to be available for every potential desired client with a high degree of quality work.
+                We, as an enterprise, established back in 2021, with the motto of providing our digital expertise to people who want to innovate conventional methods of working and have a desire to add some technical features to their business. In addition to that, our key focus is to provide satisfactory work at an affordable rate. We are experts in React.js, Next.js, Node.js, Laravel, PHP, express.js, MongoDB, MySQL, AWS, typescript and many more.
                 </p>
               </Split>
             </div>
