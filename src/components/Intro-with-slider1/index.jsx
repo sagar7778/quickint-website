@@ -134,7 +134,7 @@ const IntroWithSlider1 = ({ sliderRef }) => {
         ></div>
 
         <div className="social-icon">
-          <a href="https://www.linkedin.com/company/quickint-solutions/?originalSubdomain=in" target='_blank'>
+          <a href="https://www.linkedin.com/company/quickint-solutions/?originalSubdomain=in" target='_blank' rel="noreferrer" >
             <i className="fab fa-linkedin"></i>
           </a>
         </div>
