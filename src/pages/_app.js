@@ -35,7 +35,7 @@ function MyApp({ Component, pageProps }) {
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-NQWYR73EYF"
       ></Script>
-      <Script>
+      <Script id="google-analytics">
         {`
           window.dataLayer = window.dataLayer || []; function gtag()
           {dataLayer.push(arguments)}
