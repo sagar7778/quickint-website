@@ -34,10 +34,10 @@ class FooterTwo extends Component {
                           <p className="f_400 f_p f_size_15 mb-0 l_height34">
                             <span>Email:</span>{" "}
                             <a
-                              href="mailto:quickintsolutions@gmail.com"
+                              href="mailto:info@quickint.in"
                               className="f_400"
                             >
-                              quickintsolutions@gmail.com
+                              info@quickint.in
                             </a>
                           </p>
                           <p className="f_400 f_p f_size_15 mb-0 l_height34">

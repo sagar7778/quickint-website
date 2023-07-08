@@ -85,7 +85,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 items brand lg-mr software web">
+            <div className="col-lg-4 col-md-6 items brand lg-mr web">
               <div
                 className="item-img wow fadeInUp"
                 data-wow-delay=".4s"
@@ -107,7 +107,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 items brand web">
+            <div className="col-lg-4 col-md-6 items brand web app">
               <div
                 className="item-img wow fadeInUp"
                 data-wow-delay=".4s"
@@ -129,7 +129,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 items web softeware">
+            <div className="col-lg-4 col-md-6 items web app">
               <div
                 className="item-img wow fadeInUp"
                 data-wow-delay=".4s"

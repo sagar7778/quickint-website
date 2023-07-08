@@ -40,7 +40,7 @@ const Homepage2 = () => {
       <VideoWithTestimonials />
       <SkillsCircle theme="dark" subBG />
       <PortfolioCustomColumn column={3} filterPosition="center" />
-      <Clients1 theme="dark" subBG />
+      {/* <Clients1 theme="dark" subBG /> */}
       <CallToAction />
       <Footer />
     </DarkTheme>

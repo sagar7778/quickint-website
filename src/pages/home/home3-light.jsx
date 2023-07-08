@@ -43,7 +43,7 @@ const Homepage3 = () => {
       <NumbersWithVideo />
       <Works2Slider subBG />
       <Testimonials1 />
-      <BlogsThreeColumn1 subBG />
+      {/* <BlogsThreeColumn1 subBG /> */}
       <Footer />
     </LightTheme>
   );

@@ -97,8 +97,8 @@ class Career extends Component {
                   </p>
                   <p className="f_400 f_size_15">
                     <span className="f_400 t_color3">Email:</span>{" "}
-                    <a href="mailto:saasland@gmail.com">
-                      quickintsolutions@gmail.com
+                    <a href="mailto:info@quickint.in">
+                    info@quickint.in
                     </a>
                   </p>
                 </div>

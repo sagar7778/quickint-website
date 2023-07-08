@@ -1,10 +1,10 @@
 {
   "id": 1,
   "image1": "/img/intro/4hands.png",
-  "image2": "/img/intro/",
   "image3": "/img/intro/corerelations.png",
+  "image2": "/img/intro/mimi-thian-R_jYS09sBMU-unsplash.jpg",
   "smallTitle": "About Us",
-  "title": { "first": "Welcome to the new world of digitalization,", "second": "where we are here to provide you digital solutions" },
+  "title": { "first": "Welcome to the new world of digitalization,", "second": "where we are here to provide you reliable solutions" },
   "content": "We are a credible organization that provides reliable solutions for Web and mobile app development, SEO, Customize software, and Graphic work to various clients throughout the globe.",
  "features": [
     {

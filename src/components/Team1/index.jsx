@@ -50,8 +50,8 @@ class Team1 extends React.Component {
                   infinite: true,
                   arrows: true,
                   autoplay: true,
-                  slidesToScroll: 2,
-                  slidesToShow: 3,
+                  slidesToScroll: 3,
+                  slidesToShow: 4,
                   responsive: [
                     {
                       breakpoint: 1024,

@@ -31,7 +31,7 @@ const Footer = () => {
               <div className="con-info custom-font">
                 <ul>
                   <li>
-                    <span>Email : </span>  quickintsolutions@gmail.com
+                    <span>Email : </span>  info@quickint.in
                   </li>
                   <li>
                     <span>Address : </span> 417 Saffron Business Park, NR Jashodanagar Cross Rd, Ahmedabad, Gujarat 382445

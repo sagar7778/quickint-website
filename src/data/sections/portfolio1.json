@@ -18,7 +18,7 @@
     "image": "/img/portfolio/images/greendoor-dashboard.png",
     "title": "Green Dorrs",
     "tags": ["React", "Web App"],
-    "filterCategory": ["web"]
+    "filterCategory": ["web app"]
   },
 
   {
@@ -26,13 +26,13 @@
     "image": "/img/portfolio/images/Techfenix1.5430cd0f.png",
     "title": "Techfenix",
     "tags": ["React", "Web App"],
-    "filterCategory": ["web"]
+    "filterCategory": ["web app"]
   },
   {
     "id": 4,
     "image": "/img/portfolio/images/orijin.3e6e5e8b.jpg",
     "title": "Origin",
     "tags": ["React", "Web App"],
-    "filterCategory": ["web"]
+    "filterCategory": ["web App"]
   }
 ]
