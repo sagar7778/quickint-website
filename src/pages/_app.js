@@ -31,6 +31,18 @@ function MyApp({ Component, pageProps }) {
         src="/js/isotope.pkgd.min.js"
       ></Script>
       <Script id="initWow" strategy="lazyOnload">{`new WOW().init();`}</Script>
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-NQWYR73EYF"
+      ></Script>
+      <Script>
+        {`
+          window.dataLayer = window.dataLayer || []; function gtag()
+          {dataLayer.push(arguments)}
+          
+          gtag('js', new Date()); gtag('config', 'G-NQWYR73EYF');
+        `}
+      </Script>
     </>
   );
 }
