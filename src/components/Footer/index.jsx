@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Formik, Form, Field } from "formik";
 import appData from "../../data/app.json";
 import { useRouter } from "next/router";
@@ -7,6 +7,33 @@ import { SiFiverr, SiLinkedin, SiUpwork } from "react-icons/si";
 
 const Footer = () => {
   const router = useRouter()
+  const {value,setValue}=useState()
+
+useEffect(() => {
+  var myHeaders = new Headers();
+myHeaders.append("Content-Type", "application/json");
+
+var raw = JSON.stringify({
+  "name": "Koshti Sagar",
+  "email": "koshtisagar7778@gmail.com",
+  "contactNo": "1234567890",
+  "message": "hello quickint"
+});
+
+var requestOptions = {
+  method: 'POST',
+  headers: myHeaders,
+  body: raw,
+  redirect: 'follow'
+};
+
+fetch("http://localhost:3000/api/hello", requestOptions)
+  .then(response => response.text())
+  .then(result => console.log(result))
+  .catch(error => console.log('error', error));
+})
+
+
 
   function validateEmail(value) {
     let error;
@@ -148,7 +175,7 @@ const Footer = () => {
                       </div>
 
                       <button type="submit" className="btn-curve btn-lit">
-                        <span>Send Message</span>
+                        <span onClick={value}>Send Message</span>
                       </button>
                     </div>
                   </Form>
