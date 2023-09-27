@@ -1,37 +1,43 @@
 [
   {
     "id": 1,
-    "image": "/img/team/01.jpg",
+    "image": "",
     "name": "Neel Patel",
     "title": "Founder & CTO"
   },
   {
     "id": 2,
-    "image": "/img/team/02.jpg",
+    "image": "",
     "name": "Aman Patel",
     "title": "BDE"
   },
   {
     "id": 3,
-    "image": "/img/team/03.jpg",
+    "image": "",
     "name": "Dhansukh",
     "title": "React developer"
   },
   {
+    "id": 7,
+    "image": "",
+    "name": "Yash Jani",
+    "title": "Node.js devloper"
+  },
+  {
     "id": 4,
-    "image": "/img/team/4.jpg",
+    "image": "",
     "name": " Priyanka Maneria",
     "title": "Jr. Developer"
   },
   {
     "id": 5,
-    "image": "/img/team/5.jpg",
+    "image": "",
     "name": "Ayushya Patel",
     "title": "Jr. Developer"
   },
   {
     "id": 6,
-    "image": "/img/team/5.jpg",
+    "image": "",
     "name": "Ashvini Parmar",
     "title": "UI/UX designer"
   },

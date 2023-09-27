@@ -3,6 +3,7 @@ import ContactHeader from "../../components/Contact-header";
 import ContactWithMap from "../../components/Contact-with-map";
 import Navbar from "../../components/Navbar";
 import DarkTheme from "../../layouts/Dark";
+import Head from "next/head";
 
 const Contact = () => {
   const fixedHeader = React.useRef(null);
@@ -33,6 +34,10 @@ const Contact = () => {
   }, []);
   return (
     <DarkTheme>
+      <Head>
+        <title>Quickint Solutions | Contact Us</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Navbar nr={navbarRef} />
       <ContactHeader sliderRef={fixedHeader} />
       <div className="main-content" ref={MainContent}>

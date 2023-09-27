@@ -70,14 +70,12 @@ const Services1 = () => {
             className="col-lg-3 col-md-6 item-box wow fadeInLeft"
             data-wow-delay=".9s"
           >
-            <span className="icon pe-7s-like2"></span>
+            <span className="icon pe-7s-cart"></span>
             <h6>
-              Manual testing and quality assurance (QA) <br />
+            E- commerce platforms
             </h6>
             <p>
-              Let our quality analysts check your existing or newly
-              developed digital service, to ensure you services with
-              least bugs and high quality codes.
+            move your business to online with our custom building E-commerce website & mobile application and target the global market.
             </p>
           </div>
         </div>

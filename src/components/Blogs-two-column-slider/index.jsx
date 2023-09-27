@@ -87,42 +87,6 @@ const BlogsTwoColumnSlider = () => {
                   </div>
                 </div>
               </div>
-              <div className="item-box">
-                <div className="item">
-                  <div className="bimg">
-                    <div
-                      className="img bg-img"
-                      style={{ backgroundImage: "url(/img/blog/blog2.png)" }}
-                    ></div>
-                  </div>
-                  <div className="cont valign">
-                    <div className="full-width">
-                      <div className="info custom-font">
-                        <a href="/blog-details/blog2" className="author">
-                          <span>by value chain</span>
-                        </a>
-                        <Link href="/blog-details/blog2">
-                          <a className="date">
-                            <span>
-                              <i>08</i> Aug
-                            </span>
-                          </a>
-                        </Link>
-                      </div>
-                      <h6 className="custom-font">
-                        <Link href="/blog-details/blog2">
-                           For the industry to progress and for UK manufacturers to compete with foreign manufacturers in Germany
-                        </Link>
-                      </h6>
-                      <div className="btn-more custom-font">
-                        <Link href="/blog-details/blog2">
-                          <a className="simple-btn">Read More</a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             
             </Slider>
           </div>
