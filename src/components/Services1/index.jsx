@@ -75,7 +75,7 @@ const Services1 = () => {
             E- commerce platforms
             </h6>
             <p>
-            move your business to online with our custom building E-commerce website & mobile application and target the global market.
+            move your business to online business helpline with our custom building E-commerce website & mobile application and target the global market.
             </p>
           </div>
         </div>

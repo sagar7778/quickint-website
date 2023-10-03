@@ -60,7 +60,7 @@ const MinimalArea = () => {
                     <span>2</span> Our Goals
                   </h6>
                   <p>
-                    Develop more and more solutions that improve the standards
+                    Devops for testers and more solutions that improve the standards
                     of human life.
                   </p>
                 </li>
