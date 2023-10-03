@@ -57,7 +57,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="cont">
                 <h6>{projectsData[0].title}</h6>
                 <span>
-                  <p >React Native app</p>
+                  <p >React native for app development </p>
                 </span>
               </div>
             </div>

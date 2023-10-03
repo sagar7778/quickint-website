@@ -57,7 +57,7 @@ const WorksDark = () => {
                   before.
                 </h4>
                 <div className="bactxt custom-font valign">
-                  <span className="full-width">Works</span>
+                  <span className="full-width">Our Works</span>
                 </div>
               </div>
             </div>

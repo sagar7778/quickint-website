@@ -27,11 +27,7 @@ const BlogDetails = () => {
                 <div className="row justify-content-center">
                   <div className="col-lg-10">
                     <div className="cont">
-                      <div className="spacial">
-                        <p>
-                        Technology innovation will bring in a new age in agriculture, from Internet of Things sensors to smart farming.
-                        </p>
-                      </div>
+                  
                       <p>
                       Traditionally, agricultural areas have only ever been shown as pastoral, peaceful settings unaffected by contemporary life. Nevertheless, farms all over the world are rapidly losing their traditional image and embracing technology improvements at a quicker rate than before. The difficulties brought on by climate change, declining agricultural yields, unexpected epidemics, and the dwindling supply of natural resources like water and arable land are mostly to blame for this. This has hastened transformation and brought in the era of IoT in agriculture and smart farming, along with the requirement that the globe produce 70% more food by 2050 to fulfil the rising demand of a rapidly expanding population.
                       </p>

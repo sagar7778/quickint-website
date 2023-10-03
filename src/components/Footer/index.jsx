@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Formik, Form, Field } from "formik";
 import appData from "../../data/app.json";
 import { useRouter } from "next/router";
@@ -7,6 +7,33 @@ import { SiFiverr, SiLinkedin, SiUpwork } from "react-icons/si";
 
 const Footer = () => {
   const router = useRouter()
+  const {value,setValue}=useState()
+
+useEffect(() => {
+  var myHeaders = new Headers();
+myHeaders.append("Content-Type", "application/json");
+
+var raw = JSON.stringify({
+  "name": "Koshti Sagar",
+  "email": "koshtisagar7778@gmail.com",
+  "contactNo": "1234567890",
+  "message": "hello quickint"
+});
+
+var requestOptions = {
+  method: 'POST',
+  headers: myHeaders,
+  body: raw,
+  redirect: 'follow'
+};
+
+fetch("http://localhost:3000/api/hello", requestOptions)
+  .then(response => response.text())
+  .then(result => console.log(result))
+  .catch(error => console.log('error', error));
+})
+
+
 
   function validateEmail(value) {
     let error;
@@ -19,82 +46,156 @@ const Footer = () => {
   }
   const sendEmail = (ms) => new Promise((r) => setTimeout(r, ms));
   return (
-    <footer className="footer-half sub-bg section-padding pb-0">
+    <>
+    <section className="contact section-padding" style={{display: 'flex'}}>
       <div className="container">
         <div className="row">
-          <div className="col-lg-5">
-            <div className="cont">
-              <div className="logo">
-                <a onClick={() => router.push("/")}>
-                  <img src={`${appData.darkLogo}`} alt="" />
+          
+          <div className="col-lg-6 offset-lg-3">
+            <div className="cont-info">
+              <h4 className="extra-title mb-50">Contact Info.</h4>
+              <h3 className="custom-font wow" data-splitting>
+                Let&apos;s Talk.
+              </h3>
+              <div className="item mb-40">
+                <h5>
+                  <a href="mailto:info@quickint.in"> info@quickint.in</a>
+                </h5>
+                <a href="tel:(+91) 9825866927">+91 98258 66927</a>
+              </div>
+              <h3 className="custom-font wow" data-splitting>
+                Visit Us.
+              </h3>
+              <div className="item">
+                <h6>
+                      417 Saffron Business Park, NR Jashodanagar
+                  <br />
+                      Ahmedabad, Gujarat 382445
+                </h6>
+              </div>
+              <div className="social mt-50">
+              <a href="https://www.linkedin.com/company/quickint-solutions/" target="_blank" rel="noreferrer" className="icon"> 
+              <SiLinkedin /> </a>
+               <a href="https://www.upwork.com/o/companies/~01ac40e312f2bbadc2" target="_blank" rel="noreferrer" className="icon"> 
+               <SiUpwork /> 
+              </a> 
+              <a href="https://www.fiverr.com/" target="_blank" rel="noreferrer" className="icon"> 
+              <SiFiverr /> 
+              </a>
+                {/* <a href="#0" className="icon">
+                  <i className="fab fa-facebook-f"></i>
                 </a>
-              </div>
-              <div className="con-info custom-font">
-                <ul>
-                  <li>
-                    <span>Email : </span>  info@quickint.in
-                  </li>
-                  <li>
-                    <span>Address : </span> 417 Saffron Business Park, NR Jashodanagar Cross Rd, Ahmedabad, Gujarat 382445
-                  </li>
-                  <li>
-                    <span>Phone : </span>  (+91) 9825866927
-                  </li>
-                </ul>
-              </div>
-              <div className="social-icon">
-                <h6 className="custom-font stit simple-btn">Connect</h6>
-                <div className="social">
-                  <a href="https://www.linkedin.com/company/quickint-solutions/" target="_blank" rel="noreferrer" className="icon">
-                  <SiLinkedin />
-                  </a>
-                  <a href="https://www.upwork.com/o/companies/~01ac40e312f2bbadc2" target="_blank" rel="noreferrer" className="icon">
-                    <SiUpwork />
-                  </a>
-                  <a href="https://www.fiverr.com/" target="_blank" rel="noreferrer" className="icon">
-                    <SiFiverr />
-                  </a>
-                  </div>
+                <a href="#0" className="icon">
+                  <i className="fab fa-twitter"></i>
+                </a>
+                <a href="#0" className="icon">
+                  <i className="fab fa-pinterest"></i>
+                </a>
+                <a href="#0" className="icon">
+                  <i className="fab fa-behance"></i>
+                </a> */}
               </div>
             </div>
           </div>
-          <div className="col-lg-5 offset-lg-2">
-            <div className="subscribe mb-50">
-              <h6 className="custom-font stit simple-btn">GET IN TOUCH</h6>
-              <p></p>
+        </div>
+      </div>
+      
+      <div className="col-lg-6" style={{marginRight:"10%"}}>
+            <div className="form md-mb50">
+              <h4 className="extra-title mb-50">Get In Touch.</h4>
+
               <Formik
                 initialValues={{
-                  subscribe: "",
+                  name: "",
+                  email: "",
+                  message: "",
                 }}
                 onSubmit={async (values) => {
-                  await sendEmail(500);
+                  await sendMessage(500);
                   alert(JSON.stringify(values, null, 2));
+                  // show message
+
+                  messageRef.current.innerText =
+                    "Your Message has been successfully sent. I will contact you soon.";
                   // Reset the values
-                  values.subscribe = "";
+                  values.name = "";
+                  values.email = "";
+                  values.message = "";
+                  // clear message
+                  setTimeout(() => {
+                    messageRef.current.innerText = "";
+                  }, 2000);
                 }}
               >
                 {({ errors, touched }) => (
-                  <Form>
-                    <div className="form-group custom-font">
-                      <Field
-                        validate={validateEmail}
-                        type="email"
-                        name="subscribe"
-                        placeholder="Your Email"
-                      />
-                      {errors.email && touched.email && (
-                        <div>{errors.email}</div>
-                      )}
-                      <button className="cursor-pointer">mail</button>
+                  <Form id="contact-form">
+
+                    <div className="controls">
+                      <div className="form-group">
+                        <Field
+                          id="form_name"
+                          type="text"
+                          name="name"
+                          placeholder="Name"
+                          required="required"
+                        />
+                      </div>
+                      <div className="form-group">
+                        <Field
+                          id="form_number"
+                          name="number"
+                          placeholder="Contact No."
+                          required="required"
+                         
+                        />
+                      </div>
+                      <div className="form-group">
+                        <Field
+                          validate={validateEmail}
+                          id="form_email"
+                          type="email"
+                          name="email"
+                          placeholder="Email"
+                          required="required"
+                        />
+                        {errors.email && touched.email && (
+                          <div>{errors.email}</div>
+                        )}
+                      </div>
+
+                      <div className="form-group">
+                        <Field
+                          as="textarea"
+                          id="form_message"
+                          name="message"
+                          placeholder="Message"
+                          rows="4"
+                          required="required"
+                        />
+                      </div>
+
+                      <button type="submit" className="btn-curve btn-lit">
+                        <span onClick={value}>Send Message</span>
+                      </button>
                     </div>
                   </Form>
                 )}
               </Formik>
             </div>
-            
           </div>
-        </div>
-        <div className="copyrights text-center">
+    </section>
+    <div className="map" id="ieatmaps">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.092651333545!2d72.6224723148699!3d22.983620223550485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e87091e60d2cf%3A0xb7f883dd2c61cb5a!2sQuickint%20Solutions!5e0!3m2!1sen!2sin!4v1672826104529!5m2!1sen!2sin"
+        style={{ border: 0 }}
+        allowFullScreen=""
+        loading="lazy"s
+      ></iframe>
+    </div>
+
+    <footer className="footer-half sub-bg">
+      <div className="container">
+        <div className="copyrights text-center mt-0">
           <p>
             © 2022 Reserved by 
             <a onClick={() => router.push("/")}  style={{marginLeft: 5}}>Quickint Solutions</a>.
@@ -102,6 +203,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
+  </>
   );
 };
 

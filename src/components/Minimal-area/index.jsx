@@ -17,8 +17,8 @@ const MinimalArea = () => {
           <div className="col-lg-6">
             <div className="imgs">
               <img
-                className="thumprallax-down"
-                src="https://media.istockphoto.com/id/625736338/photo/stack-of-hands-showing-unity.jpg?s=612x612&w=0&k=20&c=20mAQjGRQ5XVKqHe2qFguqGZ4dwto6lxxinciCfnVI0= "
+                className="thumparallax-down"
+                src="/img/slid/outdooors.png"
                 alt=""
               />
             </div>
@@ -36,7 +36,13 @@ const MinimalArea = () => {
 
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
-                We, as an enterprise, established back in 2021, with the motto of providing our digital expertise to people who want to innovate conventional methods of working and have a desire to add some technological features to their business. In addition to that, our key focus is to provide satisfactory work at an affordable rate because we are optimistic about the boom of technology in this era.
+                  We, as an enterprise, established back in 2021, with the motto
+                  of providing our digital expertise to people who want to
+                  innovate conventional methods of working and have a desire to
+                  add some technological features to their business. In addition
+                  to that, our key focus is to provide satisfactory work at an
+                  affordable rate because we are optimistic about the boom of
+                  technology in this era.
                 </p>
               </Split>
               <ul className="feat">
@@ -45,7 +51,8 @@ const MinimalArea = () => {
                     <span>1</span> Our Mission
                   </h6>
                   <p>
-                      We aim to transform innovative ideas into reality through technical expertise.
+                    We aim to transform innovative ideas into reality through
+                    technical expertise.
                   </p>
                 </li>
                 <li className="wow fadeInUp" data-wow-delay=".4s">
@@ -53,7 +60,8 @@ const MinimalArea = () => {
                     <span>2</span> Our Goals
                   </h6>
                   <p>
-                      Develop more and more solutions that improve the standards of human life.
+                    Devops for testers and more solutions that improve the standards
+                    of human life.
                   </p>
                 </li>
                 <li className="wow fadeInUp" data-wow-delay=".6s">
@@ -61,7 +69,8 @@ const MinimalArea = () => {
                     <span>3</span> Why Us?
                   </h6>
                   <p>
-                    International Reach and Expertise in teachnologial requirements.
+                    International Reach and Expertise in teachnologial
+                    requirements.
                   </p>
                 </li>
               </ul>

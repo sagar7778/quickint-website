@@ -41,7 +41,7 @@ const Homepage2 = () => {
       <Numbers1 />
       <PortfolioCustomColumn column={2} filterPosition="left" />
       <Testimonials1 subBGLftstlParallaxie withBG overlay />
-      <BlogsThreeColum2 />
+      {/* <BlogsThreeColum2 /> */}
       <ClientsBrands subBG theme="dark" />
       <ContactSection />
       <Footer />
