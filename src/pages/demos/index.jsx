@@ -265,7 +265,7 @@ const Demos = () => {
                   <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                     <div className="tlinks valign">
                       <div className="full-width">
-                        <Link href="/contact/contact-dark">
+                        <Link href="/contact">
                           <a target="_blank">Dark Version</a>
                         </Link>
                         <Link href="/contact/contact-light">
